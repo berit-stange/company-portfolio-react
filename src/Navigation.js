@@ -7,9 +7,12 @@ function Navigation() {
         <div>
             <div>LOGO</div>
             <ul>
-                <Link>Link</Link>
-                <Link>Link</Link>
-                <Link>Link</Link>
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+                {/* <Link>
+                    <li>Link</li>
+                </Link> */}
             </ul>
         </div>
     )
