@@ -11,6 +11,7 @@ body {
   font-weight: 300;
   background-color: #F4F3F1;
   color: #05060e;
+  line-height: 1.8rem;
   margin: 0 auto;
 }
 
@@ -147,8 +148,7 @@ h2 {
   .grid-container-3 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    font-size: 0.85rem;
-    line-height: 1.8rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -157,7 +157,6 @@ h2 {
   .grid-container-3 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    line-height: 1.8rem;
   }
 }
 /*# sourceMappingURL=App.css.map */
