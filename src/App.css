@@ -7,7 +7,7 @@
 
 body {
   font-family: "Roboto Slab", serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 300;
   background-color: #F4F3F1;
   color: #05060e;
@@ -50,8 +50,8 @@ body {
 .nav-container ul li {
   border-radius: 0.5em 0.5em;
   list-style: none;
-  font-size: 1.8rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 600;
   margin-left: 15px;
 }
 
