@@ -147,6 +147,8 @@ h2 {
   .grid-container-3 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    font-size: 0.85rem;
+    line-height: 1.8rem;
   }
 }
 
@@ -155,6 +157,7 @@ h2 {
   .grid-container-3 {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    line-height: 1.8rem;
   }
 }
 /*# sourceMappingURL=App.css.map */
