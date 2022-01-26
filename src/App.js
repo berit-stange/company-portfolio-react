@@ -2,17 +2,29 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navigation from './Navigation';
+import ProjectsOverview from './ProjectsOverview';
+import ProjectsSelection from './ProjectsSelection';
+import ProjectDetails from './ProjectDetails';
+import Home from './Home';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <Navigation />
-      <header className="App-header">
-        <p>
-          COMPANY PORTFOLIO
-        </p>
+    <div>
+      <BrowserRouter >
+        <Navigation />
 
-      </header>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/projekte" element={<ProjectsOverview />} />
+          <Route exact path="/projekt-details" element={<ProjectDetails />} />
+        </Routes>
+
+        <Footer />
+
+      </BrowserRouter>
+
+
     </div>
   );
 }

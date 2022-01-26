@@ -1,19 +1,30 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from './logo.svg';
 
 function Navigation() {
 
     return (
-        <div>
-            <div>LOGO</div>
-            <ul>
-                <li>Link</li>
-                <li>Link</li>
-                <li>Link</li>
-                {/* <Link>
-                    <li>Link</li>
-                </Link> */}
-            </ul>
+        <div className="nav-container">
+            <Link to="/">
+                {/* <li>Link</li> */}
+                <img src={logo} className="logo"></img>
+            </Link>
+
+            <div>
+                <ul>
+                    <Link to="/projekte">
+                        <li>Link</li>
+                    </Link>
+                    <Link to="/projekte">
+                        <li>Link</li>
+                    </Link>
+                    <Link to="/projekt-details">
+                        <li>Link</li>
+                    </Link>
+                </ul>
+            </div>
+
         </div>
     )
 }
