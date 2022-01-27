@@ -5,7 +5,7 @@ $base-color: #F4F3F1;
 $dark-color: #05060e;
 $dark-color-op: #05060e50;
 $accent-color: #79b988;
-$accent-color-op: #79b98880;
+$accent-color-op: #79b98831;
 $font-sans: 'Montserrat',
 sans-serif;
 $font-serif: 'Roboto Slab',
@@ -40,7 +40,7 @@ body {
     justify-content: space-between;
     border-bottom: 1px solid $dark-color-op;
     height: 80px;
-    padding: 0 0.7em 0 0.7em;
+    padding: 2.5em 2em 2.5em 2em;
 
     ul {
         display: flex;
@@ -94,7 +94,7 @@ h3 {
 .logo {
     color: $dark-color;
     width: 200px;
-    padding: 0.2em 0.7em 0 0.7em;
+    padding: 0.2em 0 0 0;
 }
 
 .center {
@@ -123,11 +123,37 @@ h3 {
 }
 
 .footer-container {
-    // background-color: $accent-color;
-    border-top: 1px solid $dark-color-op;
+    background-color: $accent-color;
+    display: flex;
+    justify-content: space-between;
+    // border-top: 1px solid $dark-color-op;
     height: 200px;
     width: 100%;
     margin: 100px 0 0 0;
+    padding: 1em 0.7em 0 0.7em;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            color: $dark-color;
+            text-decoration: none;
+
+            &:visited {
+                color: $dark-color;
+            }
+        }
+
+        li {
+            border-radius: 0.5em 0.5em;
+            list-style: none;
+            font-size: $font-small;
+            font-weight: $font-heavy;
+            margin-left: 15px;
+        }
+
+    }
 }
 
 .image-large {
@@ -137,21 +163,72 @@ h3 {
 
 .image-medium {
     background-color: $accent-color;
-    height: 35vh;
+    // height: 35vh;
+    // background-image:map-get($map: , $key: );
+    background-image: url(/img/paperlove2.jpg);
+    height: 100%;
+    display: block;
+    background-position: center;
+    background-size: cover;
 }
 
-.grid-container-2 {
+// .text-medium {
+//     background-color: $accent-color-op;
+//     // height: 35vh; //passt sich der Höhe der anderen Elemente an
+// }
+
+// .grid-container-2 {
+//     display: grid;
+//     gap: 30px;
+//     grid-template-columns: repeat(2, 1fr);
+//     padding: 50px 50px 25px 50px;
+// }
+
+.grid-container-mix {
     display: grid;
     gap: 30px;
-    grid-template-columns: repeat(2, 1fr);
     padding: 50px 50px 25px 50px;
+    grid-template-areas:
+        "A A"
+        "B T1"
+        "C C"
+        "T2 D";
+    row-gap: 30px;
 }
 
-.grid-container-3 {
-    display: grid;
-    gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 50px 50px 25px 50px;
+.grid-box {
+    overflow: hidden;
+    height: 50vh;
+}
+
+.grid-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-box:nth-child(1) {
+    grid-area: A;
+}
+
+.grid-box:nth-child(2) {
+    grid-area: B;
+}
+
+.grid-box:nth-child(3) {
+    grid-area: C;
+}
+
+.grid-box:nth-child(4) {
+    grid-area: D;
+}
+
+.grid-box-text {
+    grid-area: T1;
+}
+
+.grid-box-text2 {
+    grid-area: T2;
 }
 
 @media all and (max-width: 500px) {

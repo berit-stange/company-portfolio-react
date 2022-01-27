@@ -27,7 +27,7 @@ body {
           justify-content: space-between;
   border-bottom: 1px solid #05060e50;
   height: 80px;
-  padding: 0 0.7em 0 0.7em;
+  padding: 2.5em 2em 2.5em 2em;
 }
 
 .nav-container ul {
@@ -80,7 +80,7 @@ h3 {
 .logo {
   color: #05060e;
   width: 200px;
-  padding: 0.2em 0.7em 0 0.7em;
+  padding: 0.2em 0 0 0;
 }
 
 .center {
@@ -117,10 +117,43 @@ h3 {
 }
 
 .footer-container {
-  border-top: 1px solid #05060e50;
+  background-color: #79b988;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 200px;
   width: 100%;
   margin: 100px 0 0 0;
+  padding: 1em 0.7em 0 0.7em;
+}
+
+.footer-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-container ul a {
+  color: #05060e;
+  text-decoration: none;
+}
+
+.footer-container ul a:visited {
+  color: #05060e;
+}
+
+.footer-container ul li {
+  border-radius: 0.5em 0.5em;
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 15px;
 }
 
 .image-large {
@@ -130,25 +163,75 @@ h3 {
 
 .image-medium {
   background-color: #79b988;
-  height: 35vh;
+  background-image: url(/img/paperlove2.jpg);
+  height: 100%;
+  display: block;
+  background-position: center;
+  background-size: cover;
 }
 
-.grid-container-2 {
+.grid-container-mix {
   display: -ms-grid;
   display: grid;
   gap: 30px;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
   padding: 50px 50px 25px 50px;
+      grid-template-areas: "A A" "B T1" "C C" "T2 D";
+  row-gap: 30px;
 }
 
-.grid-container-3 {
-  display: -ms-grid;
-  display: grid;
-  gap: 30px;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  padding: 50px 50px 25px 50px;
+.grid-box {
+  overflow: hidden;
+  height: 50vh;
+}
+
+.grid-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grid-box:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: A;
+}
+
+.grid-box:nth-child(2) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: B;
+}
+
+.grid-box:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: C;
+}
+
+.grid-box:nth-child(4) {
+  -ms-grid-row: 4;
+  -ms-grid-column: 2;
+  grid-area: D;
+}
+
+.grid-box-text {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: T1;
+}
+
+.grid-box-text2 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: T2;
 }
 
 @media all and (max-width: 500px) {
