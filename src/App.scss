@@ -10,8 +10,8 @@ $font-sans: 'Montserrat',
 sans-serif;
 $font-serif: 'Roboto Slab',
 serif;
-$font-big: 3rem;
-$font-medium: 1.8rem;
+$font-big: 1.8rem;
+$font-medium: 1.5rem;
 $font-small: 1.1rem;
 $font-tiny: 0.9rem;
 $font-heavy: 600;
@@ -67,17 +67,28 @@ body {
 }
 
 h1 {
+    font-family: $font-sans;
     font-size: $font-medium;
+    // font-weight: $font-light;
     text-align: center;
-    margin: 50px 0 50px 0;
+    margin: 20px 0 20px 0;
     text-transform: uppercase;
 }
 
 h2 {
+    font-family: $font-sans;
     font-size: $font-medium;
-    font-weight: $font-regular;
+    font-weight: $font-heavy;
     // margin: 0 0 0.5em 0;
     text-align: center;
+}
+
+h3 {
+    font-family: $font-sans;
+    font-size: $font-small;
+    font-weight: $font-heavy;
+    // margin: 0 0 0.5em 0;
+    // text-align: center;
 }
 
 .logo {
