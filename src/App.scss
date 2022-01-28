@@ -186,65 +186,141 @@ h3 {
 
 .grid-container-mix {
     display: grid;
-    gap: 30px;
-    padding: 50px 50px 25px 50px;
     grid-template-areas:
         "A A"
         "B T1"
         "C C"
         "T2 D";
     row-gap: 30px;
-}
+    gap: 30px;
+    padding: 50px 50px 25px 50px;
 
-.grid-box {
-    overflow: hidden;
-    height: 50vh;
-}
+    .grid-box {
+        display: flex;
+        height: 50vh;
+        justify-content: center;
+        align-items: center;
+    }
 
-.grid-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .grid-box:nth-child(1) {
+        grid-area: A;
+    }
 
-.grid-box:nth-child(1) {
-    grid-area: A;
-}
+    .grid-box:nth-child(2) {
+        grid-area: B;
+    }
 
-.grid-box:nth-child(2) {
-    grid-area: B;
-}
+    .grid-box:nth-child(3) {
+        grid-area: C;
+    }
 
-.grid-box:nth-child(3) {
-    grid-area: C;
-}
+    .grid-box:nth-child(4) {
+        grid-area: D;
+    }
 
-.grid-box:nth-child(4) {
-    grid-area: D;
-}
+    .grid-box-text1 {
+        grid-area: T1;
+    }
 
-.grid-box-text {
-    grid-area: T1;
-}
-
-.grid-box-text2 {
-    grid-area: T2;
-}
-
-@media all and (max-width: 500px) {
-
-    .grid-container-2,
-    .grid-container-3 {
-        grid-template-columns: 1fr;
-        font-size: $font-tiny;
-
+    .grid-box-text2 {
+        grid-area: T2;
     }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
 
-    .grid-container-2,
-    .grid-container-3 {
-        grid-template-columns: 1fr;
+
+// ---------------------------------- media queries 1400 - 1200 - 992 - 768 - 576
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+
+    .grid-container-mix {
+        display: grid;
+        grid-template-areas:
+            "A A"
+            "B T1"
+            "C C"
+            "T2 D";
+        row-gap: 30px;
+        gap: 30px;
+        padding: 50px 50px 25px 50px;
+
+        .grid-box {
+            display: flex;
+            height: 45vh;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+
+    .grid-container-mix {
+        display: grid;
+        grid-template-areas:
+            "A A"
+            "B T1"
+            "C C"
+            "T2 D";
+        row-gap: 30px;
+        gap: 30px;
+        padding: 50px 50px 25px 50px;
+
+        .grid-box {
+            display: flex;
+            height: 45vh;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+@media all and (min-width: 576px) and (max-width: 768px) {
+
+    .grid-container-mix {
+        display: grid;
+        grid-template-areas:
+            "A"
+            "T1"
+            "B"
+            "T2"
+            "C"
+            "D";
+        row-gap: 30px;
+        gap: 30px;
+        padding: 50px 50px 25px 50px;
+
+        .grid-box {
+            display: flex;
+            height: 45vh;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+@media all and (max-width: 576px) {
+
+    .grid-container-mix {
+        display: grid;
+        grid-template-areas:
+            "A"
+            "T1"
+            "B"
+            "T2"
+            "C"
+            "D";
+        row-gap: 30px;
+        gap: 30px;
+        padding: 50px 50px 25px 50px;
+
+        .grid-box {
+            display: flex;
+            height: 45vh;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }

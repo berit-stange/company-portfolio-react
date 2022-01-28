@@ -19,7 +19,7 @@ function ProjectDetails() {
                     {/* <img src={paperlove1}></img> */}
                 </div>
 
-                <div className="text-medium grid-box-text">
+                <div className="text-medium grid-box-text1">
                     <h1>T1: Projekt Titel</h1>
                     <h2>Ort</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
