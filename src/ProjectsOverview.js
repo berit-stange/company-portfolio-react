@@ -7,8 +7,10 @@ function ProjectsOverview() {
             <h1>
                 Projekte
             </h1>
-            <div>
-                <button>Type Filter 1</button>
+            <div className="filter-container">
+                <button className="btn-filter">Ausstellung</button>
+                <button className="btn-filter">Display</button>
+                <button className="btn-filter">Messe</button>
             </div>
             <div className="center">
                 <div className="project-grid-container">

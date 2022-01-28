@@ -112,6 +112,34 @@ h3 {
   width: 100%;
 }
 
+.filter-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.btn-filter {
+  background-color: #79b988;
+  border: none;
+  border-radius: 0.2rem;
+  color: #F4F3F1;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.05rem;
+  height: 3rem;
+  margin: 0.5rem;
+  padding: 0.9rem 1rem 1rem 1rem;
+}
+
 .project-grid-container {
   display: -ms-grid;
   display: grid;
