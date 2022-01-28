@@ -10,14 +10,26 @@ $font-sans: 'Montserrat',
 sans-serif;
 $font-serif: 'Roboto Slab',
 serif;
-$font-big: 1.8rem;
-$font-medium: 1.5rem;
-$font-small: 1.1rem;
-$font-tiny: 0.9rem;
+
 $font-heavy: 600;
 $font-regular: 400;
 $font-light: 300;
 $number-medium: 1rem;
+
+$font-big: 1.8rem;
+$font-medium: 1.5rem;
+$font-small: 1.1rem;
+$font-tiny: 0.9rem;
+
+$font-big-t: 1.8rem;
+$font-medium-t: 1.5rem;
+$font-small-t: 1.1rem;
+$font-tiny-t: 0.9rem;
+
+$font-big-m: 1.5rem;
+$font-medium-m: 1.3rem;
+$font-small-m: 0.9rem;
+$font-tiny-m: 0.7rem;
 
 * {
     box-sizing: border-box;
@@ -31,7 +43,6 @@ body {
     color: $dark-color;
     line-height: $font-medium;
     margin: 0 auto;
-    // max-width: 1080px;
 }
 
 .nav-container {
@@ -68,7 +79,7 @@ body {
 
 h1 {
     font-family: $font-sans;
-    font-size: $font-medium;
+    font-size: $font-big;
     // font-weight: $font-light;
     text-align: center;
     margin: 20px 0 20px 0;
@@ -219,6 +230,55 @@ h3 {
 
 // ---------------------------------- media queries 1400 - 1200 - 992 - 768 - 576
 
+// XX-Large devices (larger desktops, 1400px and up)
+@media all and (min-width: 1400px) {
+
+    .grid-container-mix {
+        display: grid;
+        grid-template-areas:
+            "A A"
+            "B T1"
+            "C C"
+            "T2 D";
+        row-gap: 30px;
+        gap: 30px;
+        padding: 50px 50px 25px 50px;
+
+        .grid-box {
+            display: flex;
+            height: 45vh;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media all and (min-width: 1200px) and (max-width: 1400px) {
+
+    .grid-container-mix {
+        display: grid;
+        grid-template-areas:
+            "A A"
+            "B T1"
+            "C C"
+            "T2 D";
+        row-gap: 30px;
+        gap: 30px;
+        padding: 50px 50px 25px 50px;
+
+        .grid-box {
+            display: flex;
+            height: 45vh;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+}
+
+// Large devices (desktops, 992px and up)
 @media all and (min-width: 992px) and (max-width: 1200px) {
 
     .grid-container-mix {
@@ -242,6 +302,7 @@ h3 {
 
 }
 
+// Medium devices (tablets, 768px and up)
 @media all and (min-width: 768px) and (max-width: 992px) {
 
     .grid-container-mix {
@@ -265,6 +326,7 @@ h3 {
 
 }
 
+// Small devices (landscape phones, 576px and up)
 @media all and (min-width: 576px) and (max-width: 768px) {
 
     .grid-container-mix {
@@ -295,7 +357,12 @@ h3 {
     }
 }
 
+// X-Small devices (portrait phones, less than 576px)
 @media all and (max-width: 576px) {
+
+    h1 {
+        font-size: $font-medium-m;
+    }
 
     .grid-container-mix {
         display: grid;
@@ -318,8 +385,8 @@ h3 {
         }
 
         .grid-box-text1 {
-            font-size: $font-tiny;
-            letter-spacing: 1.4;
+            font-size: $font-small-m;
+            letter-spacing: 0.1px;
             max-width: 400px;
             justify-self: center;
         }
