@@ -123,9 +123,9 @@ h3 {
 
 .image-slider-container {
     background-color: $accent-color;
-    height: 60vh;
+    height: 75vh;
     width: 100%;
-    margin: 0px auto;
+    // margin: 0px auto;
 }
 
 .project-grid-container {
@@ -327,6 +327,10 @@ h3 {
         font-size: $font-medium-t;
     }
 
+    .image-slider-container {
+        height: 60vh;
+    }
+
     .grid-container-mix {
         display: grid;
         grid-template-areas:
@@ -357,6 +361,10 @@ h3 {
 
     h1 {
         font-size: $font-medium-t;
+    }
+
+    .image-slider-container {
+        height: 55vh;
     }
 
     .grid-container-mix {
@@ -396,6 +404,10 @@ h3 {
 
     h1 {
         font-size: $font-medium-m;
+    }
+
+    .image-slider-container {
+        height: 40vh;
     }
 
     .grid-container-mix {
@@ -444,6 +456,10 @@ h3 {
         font-size: $font-medium-m;
     }
 
+    .image-slider-container {
+        height: 35vh;
+    }
+
     .grid-container-mix {
         display: grid;
         grid-template-areas:
@@ -474,18 +490,7 @@ h3 {
 
     // in ProjectOverview.js
     .project-grid-container {
-        // gap: 30px;
         grid-template-columns: repeat(1, 1fr);
-
-        // .project-image-small {
-        //     background-color: $accent-color;
-        //     background-image: url(/img/paperlove2.jpg);
-        //     height: 300px;
-        //     width: 300px;
-        //     display: block;
-        //     background-position: center;
-        //     background-size: cover;
-        // }
     }
 
 

@@ -7,6 +7,9 @@ function ProjectsOverview() {
             <h1>
                 Projekte
             </h1>
+            <div>
+                <button>Type Filter 1</button>
+            </div>
             <div className="center">
                 <div className="project-grid-container">
                     <Link to="/projekt-details">

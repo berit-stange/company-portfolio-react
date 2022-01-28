@@ -105,9 +105,8 @@ h3 {
 
 .image-slider-container {
   background-color: #79b988;
-  height: 60vh;
+  height: 75vh;
   width: 100%;
-  margin: 0px auto;
 }
 
 .project-grid-container {
@@ -313,6 +312,9 @@ h3 {
   h1 {
     font-size: 1.5rem;
   }
+  .image-slider-container {
+    height: 60vh;
+  }
   .grid-container-mix {
     display: -ms-grid;
     display: grid;
@@ -341,6 +343,9 @@ h3 {
   }
   h1 {
     font-size: 1.5rem;
+  }
+  .image-slider-container {
+    height: 55vh;
   }
   .grid-container-mix {
     display: -ms-grid;
@@ -376,6 +381,9 @@ h3 {
 @media all and (min-width: 576px) and (max-width: 768px) {
   h1 {
     font-size: 1.3rem;
+  }
+  .image-slider-container {
+    height: 40vh;
   }
   .grid-container-mix {
     display: -ms-grid;
@@ -417,6 +425,9 @@ h3 {
 @media all and (max-width: 576px) {
   h1 {
     font-size: 1.3rem;
+  }
+  .image-slider-container {
+    height: 35vh;
   }
   .grid-container-mix {
     display: -ms-grid;
