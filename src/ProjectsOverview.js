@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function ProjectsOverview() {
     return (
@@ -8,7 +9,15 @@ function ProjectsOverview() {
             </h1>
             <div className="center">
                 <div className="project-grid-container">
-                    <div className="project-image-small"></div>
+                    <Link to="/projekt-details">
+                        <div className="project-image-small"></div>
+                    </Link>
+                    <Link to="/projekt-details">
+                        <div className="project-image-small"></div>
+                    </Link>
+                    <Link to="/projekt-details">
+                        <div className="project-image-small"></div>
+                    </Link>
                     <div className="project-image-small"></div>
                     <div className="project-image-small"></div>
                     <div className="project-image-small"></div>
