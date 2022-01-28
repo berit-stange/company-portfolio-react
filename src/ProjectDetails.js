@@ -19,7 +19,7 @@ function ProjectDetails() {
                     {/* <img src={paperlove1}></img> */}
                 </div>
 
-                <div className="text-medium grid-box-text1">
+                <div className="grid-box-text1">
                     <h1>T1: Projekt Titel</h1>
                     <h2>Ort</h2>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
@@ -35,7 +35,7 @@ function ProjectDetails() {
                     <h3>Kunde: Lorem ipsum dolor</h3>
                     <h3>Jahr: 2014</h3>
                 </div>
-                <div className="text-medium grid-box-text2">
+                <div className="grid-box-text2">
                     <h3>T1</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
                         sed diam nonumy eirmod tempor invidunt ut labore et dolore

@@ -218,7 +218,7 @@ h3 {
   grid-area: D;
 }
 
-.grid-container-mix .grid-box-text {
+.grid-container-mix .grid-box-text1 {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: T1;
@@ -260,13 +260,13 @@ h3 {
         grid-template-areas: "A A" "B T1" "C C" "T2 D";
     row-gap: 30px;
     gap: 30px;
-    padding: 50px 50px 25px 50px;
+    padding: 50px 30px 25px 30px;
   }
   .grid-container-mix .grid-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 45vh;
+    height: 35vh;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -297,6 +297,12 @@ h3 {
         -ms-flex-align: center;
             align-items: center;
   }
+  .grid-container-mix .grid-box-text1 {
+    font-size: 1.1rem;
+    max-width: 400px;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
 }
 
 @media all and (max-width: 576px) {
@@ -319,6 +325,13 @@ h3 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .grid-container-mix .grid-box-text1 {
+    font-size: 0.9rem;
+    letter-spacing: 1.4;
+    max-width: 400px;
+    -ms-grid-column-align: center;
+        justify-self: center;
   }
 }
 /*# sourceMappingURL=App.css.map */
