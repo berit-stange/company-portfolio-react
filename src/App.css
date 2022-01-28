@@ -51,6 +51,7 @@ body {
 .nav-container ul li {
   border-radius: 0.5em 0.5em;
   list-style: none;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
   margin-left: 15px;
@@ -62,6 +63,7 @@ h1 {
   font-weight: 600;
   text-align: center;
   margin: 20px 0 20px 0;
+  padding: 1.5em 0 1em 0;
   text-transform: uppercase;
 }
 
@@ -103,18 +105,23 @@ h3 {
   margin: 0px auto;
 }
 
-.project-image-small {
-  background-color: #79b988;
-  height: 300px;
-  width: 300px;
-}
-
 .project-grid-container {
   display: -ms-grid;
   display: grid;
   gap: 30px;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  padding: 1em 0 0 0;
+}
+
+.project-grid-container .project-image-small {
+  background-color: #79b988;
+  background-image: url(/img/paperlove2.jpg);
+  height: 300px;
+  width: 300px;
+  display: block;
+  background-position: center;
+  background-size: cover;
 }
 
 .footer-container {
@@ -252,6 +259,13 @@ h3 {
         -ms-flex-align: center;
             align-items: center;
   }
+  .project-grid-container {
+    gap: 30px;
+  }
+  .project-grid-container .project-image-small {
+    height: 400px;
+    width: 400px;
+  }
 }
 
 @media all and (min-width: 1200px) and (max-width: 1400px) {
@@ -274,6 +288,13 @@ h3 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .project-grid-container {
+    gap: 30px;
+  }
+  .project-grid-container .project-image-small {
+    height: 350px;
+    width: 350px;
   }
 }
 
@@ -333,6 +354,15 @@ h3 {
         -ms-flex-align: center;
             align-items: center;
   }
+  .project-grid-container {
+    gap: 30px;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .project-grid-container .project-image-small {
+    height: 350px;
+    width: 350px;
+  }
 }
 
 @media all and (min-width: 576px) and (max-width: 768px) {
@@ -365,6 +395,15 @@ h3 {
     -ms-grid-column-align: center;
         justify-self: center;
   }
+  .project-grid-container {
+    gap: 25px;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .project-grid-container .project-image-small {
+    height: 260px;
+    width: 260px;
+  }
 }
 
 @media all and (max-width: 576px) {
@@ -396,6 +435,10 @@ h3 {
     max-width: 400px;
     -ms-grid-column-align: center;
         justify-self: center;
+  }
+  .project-grid-container {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
   }
 }
 /*# sourceMappingURL=App.css.map */

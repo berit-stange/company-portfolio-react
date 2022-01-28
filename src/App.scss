@@ -69,6 +69,7 @@ body {
         li {
             border-radius: 0.5em 0.5em;
             list-style: none;
+            font-family: $font-sans;
             font-size: $font-small;
             font-weight: $font-heavy;
             margin-left: 15px;
@@ -83,6 +84,7 @@ h1 {
     font-weight: $font-heavy;
     text-align: center;
     margin: 20px 0 20px 0;
+    padding: 1.5em 0 1em 0;
     text-transform: uppercase;
 }
 
@@ -121,16 +123,21 @@ h3 {
     margin: 0px auto;
 }
 
-.project-image-small {
-    background-color: $accent-color;
-    height: 300px;
-    width: 300px;
-}
-
 .project-grid-container {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(3, 1fr);
+    padding: 1em 0 0 0;
+
+    .project-image-small {
+        background-color: $accent-color;
+        background-image: url(/img/paperlove2.jpg);
+        height: 300px;
+        width: 300px;
+        display: block;
+        background-position: center;
+        background-size: cover;
+    }
 }
 
 .footer-container {
@@ -252,6 +259,17 @@ h3 {
         }
     }
 
+    // in ProjectOverview.js
+    .project-grid-container {
+        gap: 30px;
+        // grid-template-columns: repeat(3, 1fr);
+
+        .project-image-small {
+            height: 400px;
+            width: 400px;
+        }
+    }
+
 }
 
 // X-Large devices (large desktops, 1200px and up)
@@ -273,6 +291,17 @@ h3 {
             height: 45vh;
             justify-content: center;
             align-items: center;
+        }
+    }
+
+    // in ProjectOverview.js
+    .project-grid-container {
+        gap: 30px;
+        // grid-template-columns: repeat(3, 1fr);
+
+        .project-image-small {
+            height: 350px;
+            width: 350px;
         }
     }
 
@@ -340,6 +369,17 @@ h3 {
         }
     }
 
+    // in ProjectOverview.js
+    .project-grid-container {
+        gap: 30px;
+        grid-template-columns: repeat(2, 1fr);
+
+        .project-image-small {
+            height: 350px;
+            width: 350px;
+        }
+    }
+
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -373,6 +413,17 @@ h3 {
             font-size: $font-small;
             max-width: 400px;
             justify-self: center;
+        }
+    }
+
+    // in ProjectOverview.js
+    .project-grid-container {
+        gap: 25px;
+        grid-template-columns: repeat(2, 1fr);
+
+        .project-image-small {
+            height: 260px;
+            width: 260px;
         }
     }
 }
@@ -411,4 +462,22 @@ h3 {
             justify-self: center;
         }
     }
+
+    // in ProjectOverview.js
+    .project-grid-container {
+        // gap: 30px;
+        grid-template-columns: repeat(1, 1fr);
+
+        // .project-image-small {
+        //     background-color: $accent-color;
+        //     background-image: url(/img/paperlove2.jpg);
+        //     height: 300px;
+        //     width: 300px;
+        //     display: block;
+        //     background-position: center;
+        //     background-size: cover;
+        // }
+    }
+
+
 }
