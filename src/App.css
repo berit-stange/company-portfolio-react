@@ -105,6 +105,9 @@ h3 {
 
 .image-slider-container {
   background-color: #79b988;
+  background-image: url(/img/paperlove1.jpg);
+  background-position: center;
+  background-size: cover;
   height: 75vh;
   width: 100%;
 }
