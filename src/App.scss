@@ -23,7 +23,7 @@ $font-tiny: 0.9rem;
 
 $font-big-t: 1.8rem;
 $font-medium-t: 1.5rem;
-$font-small-t: 1.1rem;
+$font-small-t: 1.0rem;
 $font-tiny-t: 0.9rem;
 
 $font-big-m: 1.5rem;
@@ -78,24 +78,24 @@ body {
 }
 
 h1 {
-    font-family: $font-serif;
+    font-family: $font-sans;
     font-size: $font-big;
-    // font-weight: $font-light;
+    font-weight: $font-heavy;
     text-align: center;
     margin: 20px 0 20px 0;
     text-transform: uppercase;
 }
 
 h2 {
-    font-family: $font-serif;
+    font-family: $font-sans;
     font-size: $font-medium;
-    font-weight: $font-heavy;
+    font-weight: $font-regular;
     // margin: 0 0 0.5em 0;
     text-align: center;
 }
 
 h3 {
-    font-family: $font-serif;
+    font-family: $font-sans;
     font-size: $font-small;
     font-weight: $font-heavy;
     // margin: 0 0 0.5em 0;
@@ -281,6 +281,14 @@ h3 {
 // Large devices (desktops, 992px and up)
 @media all and (min-width: 992px) and (max-width: 1200px) {
 
+    body {
+        font-size: $font-small-t;
+    }
+
+    h1 {
+        font-size: $font-medium-t;
+    }
+
     .grid-container-mix {
         display: grid;
         grid-template-areas:
@@ -305,6 +313,14 @@ h3 {
 // Medium devices (tablets, 768px and up)
 @media all and (min-width: 768px) and (max-width: 992px) {
 
+    body {
+        font-size: $font-small-t;
+    }
+
+    h1 {
+        font-size: $font-medium-t;
+    }
+
     .grid-container-mix {
         display: grid;
         grid-template-areas:
@@ -328,6 +344,10 @@ h3 {
 
 // Small devices (landscape phones, 576px and up)
 @media all and (min-width: 576px) and (max-width: 768px) {
+
+    h1 {
+        font-size: $font-medium-m;
+    }
 
     .grid-container-mix {
         display: grid;

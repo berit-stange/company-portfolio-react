@@ -57,22 +57,23 @@ body {
 }
 
 h1 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.8rem;
+  font-weight: 600;
   text-align: center;
   margin: 20px 0 20px 0;
   text-transform: uppercase;
 }
 
 h2 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
 }
 
 h3 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
 }
@@ -277,6 +278,12 @@ h3 {
 }
 
 @media all and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
   .grid-container-mix {
     display: -ms-grid;
     display: grid;
@@ -300,6 +307,12 @@ h3 {
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
   .grid-container-mix {
     display: -ms-grid;
     display: grid;
@@ -323,6 +336,9 @@ h3 {
 }
 
 @media all and (min-width: 576px) and (max-width: 768px) {
+  h1 {
+    font-size: 1.3rem;
+  }
   .grid-container-mix {
     display: -ms-grid;
     display: grid;
