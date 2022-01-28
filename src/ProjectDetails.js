@@ -22,31 +22,29 @@ function ProjectDetails() {
                 <div className="grid-box-text1">
                     <h1>T1: Projekt Titel</h1>
                     <h2>Ort</h2>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                        sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                        magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                        et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                        no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                        aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet.</p>
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien
+                        leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste
+                        des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden
+                        fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+                        Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den
+                        Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte
+                        beherrscht – ein geradezu unorthographisches Leben. Eines Tages aber beschloß eine
+                        kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik.
+                    </p>
                     <h3>Kunde: Lorem ipsum dolor</h3>
                     <h3>Jahr: 2014</h3>
                 </div>
                 <div className="grid-box-text2">
                     <h3>T1</h3>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                        sed diam nonumy eirmod tempor invidunt ut labore et dolore
-                        magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-                        et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                        no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-                        sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-                        aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-                        sanctus est Lorem ipsum dolor sit amet.</p>
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien
+                        leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste
+                        des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden
+                        fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien.
+                        Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den
+                        Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte
+                        beherrscht – ein geradezu unorthographisches Leben. Eines Tages aber beschloß eine
+                        kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik.
+                    </p>
                 </div>
             </div>
         </div>

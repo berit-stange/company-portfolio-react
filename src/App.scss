@@ -78,7 +78,7 @@ body {
 }
 
 h1 {
-    font-family: $font-sans;
+    font-family: $font-serif;
     font-size: $font-big;
     // font-weight: $font-light;
     text-align: center;
@@ -87,7 +87,7 @@ h1 {
 }
 
 h2 {
-    font-family: $font-sans;
+    font-family: $font-serif;
     font-size: $font-medium;
     font-weight: $font-heavy;
     // margin: 0 0 0.5em 0;
@@ -95,7 +95,7 @@ h2 {
 }
 
 h3 {
-    font-family: $font-sans;
+    font-family: $font-serif;
     font-size: $font-small;
     font-weight: $font-heavy;
     // margin: 0 0 0.5em 0;
@@ -386,7 +386,7 @@ h3 {
 
         .grid-box-text1 {
             font-size: $font-small-m;
-            letter-spacing: 0.1px;
+            // letter-spacing: 0.1px;
             max-width: 400px;
             justify-self: center;
         }
