@@ -7,15 +7,11 @@ function Navigation() {
     return (
         <div className="nav-container">
             <Link to="/">
-                {/* <li>Link</li> */}
                 <img src={logo} className="logo"></img>
             </Link>
 
             <div>
                 <ul>
-                    <Link to="/projekte">
-                        <li>Link</li>
-                    </Link>
                     <Link to="/projekte">
                         <li>Link</li>
                     </Link>
