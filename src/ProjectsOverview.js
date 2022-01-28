@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectsOverview() {
     return (
-        <div>
+        <div className="main">
             <h1>
                 Projekte
             </h1>

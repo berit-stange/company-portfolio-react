@@ -13,18 +13,13 @@ function App() {
     <div>
       <BrowserRouter >
         <Navigation />
-
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/projekte" element={<ProjectsOverview />} />
           <Route exact path="/projekt-details" element={<ProjectDetails />} />
         </Routes>
-
         <Footer />
-
       </BrowserRouter>
-
-
     </div>
   );
 }

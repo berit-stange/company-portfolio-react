@@ -3,7 +3,7 @@ import paperlove1 from "./paperlove1.jpg";
 
 function ProjectDetails() {
     return (
-        <div>
+        <div className="main">
             <div className="grid-container-mix">
 
                 <div className="image-medium grid-box">

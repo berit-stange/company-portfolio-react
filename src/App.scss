@@ -116,6 +116,11 @@ h3 {
     justify-content: center;
 }
 
+.main {
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
 .image-slider-container {
     background-color: $accent-color;
     height: 60vh;
@@ -256,6 +261,10 @@ h3 {
             height: 45vh;
             justify-content: center;
             align-items: center;
+        }
+
+        .grid-box:nth-child(1) {
+            height: 50vh;
         }
     }
 
