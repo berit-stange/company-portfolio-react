@@ -13,10 +13,10 @@ function Navigation() {
             <div>
                 <ul>
                     <Link to="/projekte">
-                        <li>Link</li>
+                        <li>Projekte</li>
                     </Link>
                     <Link to="/projekt-details">
-                        <li>Link</li>
+                        <li>Details</li>
                     </Link>
                 </ul>
             </div>
