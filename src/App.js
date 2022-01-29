@@ -3,10 +3,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navigation from './Navigation';
 import ProjectsOverview from './ProjectsOverview';
-import ProjectsSelection from './ProjectsSelection';
+// import ProjectsSelection from './ProjectsSelection';
 import ProjectDetails from './ProjectDetails';
 import Home from './Home';
 import Footer from './Footer';
+import ArticlePage from './ArticlePage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/projekte" element={<ProjectsOverview />} />
           <Route exact path="/projekt-details" element={<ProjectDetails />} />
+          <Route exact path="/artikel" element={<ArticlePage />} />
         </Routes>
         <Footer />
       </BrowserRouter>
