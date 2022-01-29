@@ -18,6 +18,9 @@ function Navigation() {
                     <Link to="/projekt-details">
                         <li>Details</li>
                     </Link>
+                    <Link to="/artikel">
+                        <li>Artikel</li>
+                    </Link>
                 </ul>
             </div>
 
