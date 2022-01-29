@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
 
 $base-color: #F4F3F1;
-$dark-color: #05060e;
+$dark-color: #121420;
 $dark-color-op: #05060e50;
 $accent-color: #79b988;
 $accent-color-op: #79b98831;
@@ -136,17 +136,22 @@ h3 {
 }
 
 .btn-filter {
-    background-color: $accent-color;
-    border: none;
-    border-radius: 0.2rem;
-    color: $base-color;
-    font-family: $font-serif;
+    background-color: transparent;
+    border: 2px solid $dark-color;
+    // border-radius: 0.2rem;
+    color: $dark-color;
+    font-family: $font-sans;
     font-size: $font-tiny;
-    font-weight: $font-regular;
+    font-weight: $font-heavy;
     letter-spacing: 0.05rem;
     height: 3rem;
     margin: 0.5rem;
     padding: 0.9rem 1rem 1rem 1rem;
+}
+
+.btn-filter:hover {
+    background-color: $dark-color;
+    color: $base-color;
 }
 
 .project-grid-container {
