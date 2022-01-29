@@ -156,6 +156,7 @@ h3 {
 .project-grid-container .project-image-small {
   background-color: #79b988;
   background-image: url(/img/paperlove2.jpg);
+  cursor: url(/img/sharp_add_circle_black_24dp.png), default;
   height: 300px;
   width: 300px;
   display: block;
