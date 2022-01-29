@@ -63,7 +63,6 @@ h1 {
   font-weight: 600;
   text-align: center;
   margin: 20px 0 20px 0;
-  padding: 1.5em 0 1em 0;
   text-transform: uppercase;
 }
 
@@ -349,7 +348,7 @@ h3 {
     font-size: 1.5rem;
   }
   .image-slider-container {
-    height: 60vh;
+    height: 75vh;
   }
   .grid-container-mix {
     display: -ms-grid;
