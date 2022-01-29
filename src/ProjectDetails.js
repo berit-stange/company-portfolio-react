@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import paperlove1 from "./paperlove1.jpg";
+// import paperlove1 from "./paperlove1.jpg";
 
 function ProjectDetails() {
     return (
@@ -14,19 +14,18 @@ function ProjectDetails() {
 
             <div className="grid-container-mix">
 
+                {/* map function images */}
                 <div className="image-medium grid-box">
                     {/* <img src={paperlove1}></img> */}
                 </div>
                 <div className="image-medium grid-box">
-                    {/* <img src={paperlove1}></img> */}
                 </div>
                 <div className="image-medium grid-box">
-                    {/* <img src={paperlove1}></img> */}
                 </div>
                 <div className="image-medium grid-box">
-                    {/* <img src={paperlove1}></img> */}
                 </div>
 
+                {/* map function text */}
                 <div className="grid-box-text1">
                     <h1>T1: Projekt Titel</h1>
                     <h2>Ort</h2>
@@ -43,7 +42,7 @@ function ProjectDetails() {
                     <h3>Jahr: 2014</h3>
                 </div>
                 <div className="grid-box-text2">
-                    <h3>T1</h3>
+                    <h3>Text 2</h3>
                     <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien
                         leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste
                         des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden

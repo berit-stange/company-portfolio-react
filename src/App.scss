@@ -245,6 +245,54 @@ h3 {
     }
 }
 
+.grid-container-article {
+    display: grid;
+    grid-template-areas:
+        "A B C"
+        "D T1 T2"
+        // "B B C"
+        // "D D D"
+    ;
+    row-gap: 30px;
+    gap: 30px;
+    padding: 20px 50px 25px 50px;
+
+    .grid-box-a {
+        display: flex;
+        height: 50vh;
+        // justify-content: center;
+        // align-items: center;
+    }
+
+    .grid-box-a:nth-child(1) {
+        grid-area: A;
+        padding: 10px;
+    }
+
+    .grid-box-a:nth-child(2) {
+        grid-area: B;
+        padding: 10px;
+    }
+
+    .grid-box-a:nth-child(3) {
+        grid-area: C;
+        padding: 10px;
+    }
+
+    .grid-box-a:nth-child(4) {
+        grid-area: D;
+        padding: 10px;
+    }
+
+    .grid-box-a-text1 {
+        grid-area: T1;
+    }
+
+    .grid-box-a-text2 {
+        grid-area: T2;
+    }
+}
+
 .footer-container {
     // background-color: $dark-color-op;
     display: flex;
