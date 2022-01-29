@@ -1,9 +1,17 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import paperlove1 from "./paperlove1.jpg";
 
 function ProjectDetails() {
     return (
         <div className="main">
+
+            <div className="breadcrumbs">
+                <p>
+                    <Link to="/projekte">- Projekte</Link> - - Details
+                </p>
+            </div>
+
             <div className="grid-container-mix">
 
                 <div className="image-medium grid-box">

@@ -98,7 +98,7 @@ h3 {
 }
 
 .main {
-  max-width: 1520px;
+  max-width: 1220px;
   margin: 0 auto;
 }
 
@@ -143,6 +143,20 @@ h3 {
   color: #F4F3F1;
 }
 
+.breadcrumbs {
+  padding: 2rem 0.5rem 0 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.9rem;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+}
+
+.breadcrumbs a:visited {
+  color: #121420;
+}
+
 .project-grid-container {
   display: -ms-grid;
   display: grid;
@@ -161,46 +175,6 @@ h3 {
   display: block;
   background-position: center;
   background-size: cover;
-}
-
-.footer-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  border-top: 1px solid #05060e50;
-  height: 200px;
-  width: 100%;
-  margin: 100px 0 0 0;
-  padding: 1em 0.7em 0 0.7em;
-}
-
-.footer-container ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.footer-container ul a {
-  color: #121420;
-  text-decoration: none;
-}
-
-.footer-container ul a:visited {
-  color: #121420;
-}
-
-.footer-container ul li {
-  border-radius: 0.5em 0.5em;
-  list-style: none;
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-left: 15px;
 }
 
 .image-large {
@@ -223,7 +197,7 @@ h3 {
       grid-template-areas: "A A" "B T1" "C C" "T2 D";
   row-gap: 30px;
   gap: 30px;
-  padding: 50px 50px 25px 50px;
+  padding: 20px 50px 25px 50px;
 }
 
 .grid-container-mix .grid-box {
@@ -277,6 +251,46 @@ h3 {
   grid-area: T2;
 }
 
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top: 1px solid #05060e50;
+  height: 200px;
+  width: 100%;
+  margin: 100px 0 0 0;
+  padding: 1em 0.7em 0 0.7em;
+}
+
+.footer-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-container ul a {
+  color: #121420;
+  text-decoration: none;
+}
+
+.footer-container ul a:visited {
+  color: #121420;
+}
+
+.footer-container ul li {
+  border-radius: 0.5em 0.5em;
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-left: 15px;
+}
+
 @media all and (min-width: 1400px) {
   .grid-container-mix {
     display: -ms-grid;
@@ -284,7 +298,7 @@ h3 {
         grid-template-areas: "A A" "B T1" "C C" "T2 D";
     row-gap: 30px;
     gap: 30px;
-    padding: 50px 50px 25px 50px;
+    padding: 20px 50px 25px 50px;
   }
   .grid-container-mix .grid-box {
     display: -webkit-box;
@@ -317,7 +331,7 @@ h3 {
         grid-template-areas: "A A" "B T1" "C C" "T2 D";
     row-gap: 30px;
     gap: 30px;
-    padding: 50px 50px 25px 50px;
+    padding: 20px 50px 25px 50px;
   }
   .grid-container-mix .grid-box {
     display: -webkit-box;
@@ -356,7 +370,7 @@ h3 {
         grid-template-areas: "A A" "B T1" "C C" "T2 D";
     row-gap: 30px;
     gap: 30px;
-    padding: 50px 50px 25px 50px;
+    padding: 20px 50px 25px 50px;
   }
   .grid-container-mix .grid-box {
     display: -webkit-box;
@@ -388,13 +402,13 @@ h3 {
         grid-template-areas: "A A" "B T1" "C C" "T2 D";
     row-gap: 30px;
     gap: 30px;
-    padding: 50px 30px 25px 30px;
+    padding: 20px 30px 25px 30px;
   }
   .grid-container-mix .grid-box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 35vh;
+    height: 45vh;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
