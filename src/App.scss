@@ -173,10 +173,10 @@ h3 {
 }
 
 .footer-container {
-    background-color: $accent-color;
+    // background-color: $dark-color-op;
     display: flex;
     justify-content: space-between;
-    // border-top: 1px solid $dark-color-op;
+    border-top: 1px solid $dark-color-op;
     height: 200px;
     width: 100%;
     margin: 100px 0 0 0;

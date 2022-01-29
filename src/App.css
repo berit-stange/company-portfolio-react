@@ -165,13 +165,13 @@ h3 {
 }
 
 .footer-container {
-  background-color: #79b988;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  border-top: 1px solid #05060e50;
   height: 200px;
   width: 100%;
   margin: 100px 0 0 0;
