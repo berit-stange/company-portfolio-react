@@ -192,20 +192,17 @@ h3 {
 }
 
 .image-medium {
-    background-color: $accent-color;
-    // background-image:map-get($map: , $key: );
-    // background-image: url(/img/paperlove2.jpg);
-    height: 35vh;
-    // height: 100%;
-    display: block;
-    // background-position: center;
-    // background-size: cover;
+    // background-color: $accent-color;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+    }
 }
 
 .grid-container-mix {
     display: grid;
-    grid-template-areas:
-        "A A"
+    grid-template-areas: "A A"
         "B T1"
         "C C"
         "T2 D";
@@ -215,9 +212,13 @@ h3 {
 
     .grid-box {
         display: flex;
-        height: 50vh;
+        // height: 50vh;
         justify-content: center;
         align-items: center;
+        // height: 100%;
+        // margin: 0px;
+        // padding: 20px;
+        // width: auto;
     }
 
     .grid-box:nth-child(1) {
@@ -248,40 +249,44 @@ h3 {
 .grid-container-article {
     display: grid;
     grid-template-areas:
-        "A B C"
-        "T1 D T2"
-        // "B B C"
-        // "D D D"
+        "A A A"
+        "B T1 T1"
+        "C T2 T3"
+        ". D D"
     ;
-    row-gap: 30px;
+    // row-gap: 30px;
     gap: 30px;
+    // grid-template-rows: repeat(10, 1fr);
+    // grid-template-columns: repeat(5, 1fr);
+    // grid-template-columns: 1fr 1fr 1fr;
     padding: 20px 50px 25px 50px;
+    margin: 0 auto;
 
     .grid-box-a {
-        display: flex;
-        height: 35vh;
+        // display: flex;
+        // flex-direction: row;
+        // width: 25vw;
+        height: 30vh;
+        // height: 100%;
+        // width: auto;
         // justify-content: center;
         // align-items: center;
     }
 
     .grid-box-a:nth-child(1) {
         grid-area: A;
-        padding: 10px;
     }
 
     .grid-box-a:nth-child(2) {
         grid-area: B;
-        padding: 10px;
     }
 
     .grid-box-a:nth-child(3) {
         grid-area: C;
-        padding: 10px;
     }
 
     .grid-box-a:nth-child(4) {
         grid-area: D;
-        padding: 10px;
     }
 
     .grid-box-a-text1 {
@@ -290,6 +295,10 @@ h3 {
 
     .grid-box-a-text2 {
         grid-area: T2;
+    }
+
+    .grid-box-a-text3 {
+        grid-area: T3;
     }
 }
 
