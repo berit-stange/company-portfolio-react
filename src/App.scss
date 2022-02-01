@@ -262,19 +262,16 @@ h3 {
     padding: 20px 50px 25px 50px;
     margin: 0 auto;
 
-    .grid-box-a {
-        // display: flex;
-        // flex-direction: row;
-        // width: 25vw;
-        height: 30vh;
-        // height: 100%;
-        // width: auto;
-        // justify-content: center;
-        // align-items: center;
-    }
+    // .grid-box-a {
+    //     // display: flex;
+    //     // flex-direction: row;
+    //     // width: 25vw;
+    //     // height: 45vh;
+    // }
 
     .grid-box-a:nth-child(1) {
         grid-area: A;
+        height: 40vh;
     }
 
     .grid-box-a:nth-child(2) {
@@ -299,6 +296,12 @@ h3 {
 
     .grid-box-a-text3 {
         grid-area: T3;
+    }
+
+    .article-intro {
+        font-family: $font-sans;
+        font-size: $font-small;
+        font-weight: $font-heavy;
     }
 }
 

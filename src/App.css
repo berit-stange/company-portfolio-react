@@ -259,15 +259,12 @@ h3 {
   margin: 0 auto;
 }
 
-.grid-container-article .grid-box-a {
-  height: 30vh;
-}
-
 .grid-container-article .grid-box-a:nth-child(1) {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: A;
+  height: 40vh;
 }
 
 .grid-container-article .grid-box-a:nth-child(2) {
@@ -306,6 +303,12 @@ h3 {
   -ms-grid-row: 3;
   -ms-grid-column: 3;
   grid-area: T3;
+}
+
+.grid-container-article .article-intro {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
 }
 
 .footer-container {
