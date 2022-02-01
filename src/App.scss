@@ -194,12 +194,12 @@ h3 {
 .image-medium {
     background-color: $accent-color;
     // background-image:map-get($map: , $key: );
-    background-image: url(/img/paperlove2.jpg);
-    // height: 35vh;
-    height: 100%;
+    // background-image: url(/img/paperlove2.jpg);
+    height: 35vh;
+    // height: 100%;
     display: block;
-    background-position: center;
-    background-size: cover;
+    // background-position: center;
+    // background-size: cover;
 }
 
 .grid-container-mix {
@@ -249,7 +249,7 @@ h3 {
     display: grid;
     grid-template-areas:
         "A B C"
-        "D T1 T2"
+        "T1 D T2"
         // "B B C"
         // "D D D"
     ;
@@ -259,7 +259,7 @@ h3 {
 
     .grid-box-a {
         display: flex;
-        height: 50vh;
+        height: 35vh;
         // justify-content: center;
         // align-items: center;
     }
