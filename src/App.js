@@ -8,6 +8,7 @@ import ProjectDetails from './ProjectDetails';
 import Home from './Home';
 import Footer from './Footer';
 import ArticlePage from './ArticlePage';
+import CMSadmin from './CMSadmin';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/projekte" element={<ProjectsOverview />} />
           <Route exact path="/projekt-details" element={<ProjectDetails />} />
           <Route exact path="/artikel" element={<ArticlePage />} />
+          <Route exact path="/admin" element={<CMSadmin />} />
         </Routes>
         <Footer />
       </BrowserRouter>
