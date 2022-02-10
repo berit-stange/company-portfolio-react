@@ -11,11 +11,11 @@ function ArticlePage() {
                     {/* A */}
                     <img src={paperlove2}></img>
                 </div>
-                <div className="image-medium grid-box-a">
+                <div className="image-portrait grid-box-a">
                     {/* B */}
                     <img src={paperlove2}></img>
                 </div>
-                <div className="image-medium grid-box-a">
+                <div className="image-portrait grid-box-a">
                     {/* C */}
                     <img src={paperlove2}></img>
                 </div>
