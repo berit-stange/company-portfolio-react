@@ -1,10 +1,11 @@
 import React from "react";
+import paperlove1b from "./paperlove1b.jpg";
 
 function ImageSlider() {
 
     return (
         <div className="image-slider-container">
-            {/* <img src={}></img> */}
+            <img src={paperlove1b}></img>
         </div>
     )
 }
