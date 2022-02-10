@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-// import paperlove1 from "./paperlove1.jpg";
+import paperlove1 from "./paperlove1.jpg";
+import paperlove2 from "./paperlove2.jpg";
 
 function ProjectDetails() {
     return (
@@ -16,13 +17,16 @@ function ProjectDetails() {
 
                 {/* map function images */}
                 <div className="image-medium grid-box">
-                    {/* <img src={paperlove1}></img> */}
+                    <img src={paperlove1}></img>
                 </div>
-                <div className="image-medium grid-box">
+                <div className="image-1-2 grid-box">
+                    <img src={paperlove2}></img>
                 </div>
-                <div className="image-medium grid-box">
+                <div className="image-1-2 grid-box">
+                    <img src={paperlove2}></img>
                 </div>
-                <div className="image-medium grid-box">
+                <div className="image-1-2 grid-box">
+                    <img src={paperlove2}></img>
                 </div>
 
                 {/* map function text */}
