@@ -11,12 +11,12 @@ sans-serif;
 $font-serif: 'Roboto Slab',
 serif;
 
-$font-heavy: 600;
+$font-heavy: 700;
 $font-regular: 400;
 $font-light: 300;
 $number-medium: 1rem;
 
-$font-big: 1.8rem;
+$font-big: 2rem;
 $font-medium: 1.5rem;
 $font-small: 1.1rem;
 $font-tiny: 0.9rem;
@@ -50,7 +50,7 @@ body {
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid $dark-color-op;
-    height: 80px;
+    height: 105px;
     padding: 2.5em 2em 2.5em 2em;
 
     ul {
@@ -86,6 +86,8 @@ h1 {
     margin: 20px 0 20px 0;
     // padding: 1.5em 0 1em 0;
     text-transform: uppercase;
+
+
 }
 
 h2 {
@@ -118,13 +120,22 @@ h3 {
     margin: 0 auto;
 }
 
+.title-center {
+    padding: 1em;
+}
+
 .image-slider-container {
-    background-color: $accent-color;
-    background-image: url(/img/paperlove1.jpg);
+    // background-color: $accent-color;
+    // background-image: url(/img/paperlove1-b.jpg);
     background-position: center;
     background-size: cover;
-    height: 75vh;
-    width: 100%;
+    // height: 75vh;
+    // width: 100%;
+    padding-bottom: 30px;
+
+    img {
+        width: 100%;
+    }
 }
 
 .filter-container {
@@ -198,6 +209,11 @@ h3 {
     img {
         width: 100%;
     }
+}
+
+.image-1-2 {
+    overflow: hidden;
+    max-width: 545px;
 }
 
 .grid-container-mix {
