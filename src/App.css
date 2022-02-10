@@ -193,11 +193,24 @@ h3 {
 
 .image-medium img {
   width: 100%;
+  position: relative;
+  top: -50%;
 }
 
 .image-1-2 {
   overflow: hidden;
   max-width: 545px;
+}
+
+.image-portrait {
+  overflow: hidden;
+  height: 400px;
+}
+
+.image-portrait img {
+  position: relative;
+  top: -50%;
+  left: -50%;
 }
 
 .grid-container-mix {
