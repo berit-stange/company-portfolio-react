@@ -529,6 +529,31 @@ h3 {
 
 }
 
+// _________________________CMSadmin
+input {
+    background-color: $accent-color;
+    border: none;
+    border-radius: 0.5em;
+    color: $dark-color;
+    font-family: $font-serif;
+    margin: 0.5rem;
+    padding: 0.4rem;
+    flex-grow: 1;
+
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.admin-page--content-input-box {
+    border-radius: 0.5em;
+    padding: 0.5em 1em 1em 0.5em;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
 // Small devices (landscape phones, 576px and up)
 @media all and (min-width: 576px) and (max-width: 768px) {
 

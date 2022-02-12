@@ -4,7 +4,7 @@ import react from "react";
 
 function CMSadmin() {
     return (
-        <div>
+        <div className="admin-page--content-input-box">
             <div>
                 <h1>Projekt hinzufügen</h1>
                 <input
