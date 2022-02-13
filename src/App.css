@@ -527,6 +527,15 @@ input:focus-visible {
   outline: none;
 }
 
+button {
+  background-color: #F4F3F1;
+  border: 0;
+  color: #121420;
+  cursor: pointer;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1rem;
+}
+
 .admin-page--content-input-box {
   border-radius: 0.5em;
   padding: 0.5em 1em 1em 0.5em;

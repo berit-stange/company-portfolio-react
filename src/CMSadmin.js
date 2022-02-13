@@ -21,11 +21,15 @@ function CMSadmin() {
                     placeholder="Text 2"
                 />
 
-                <div className="">
-                    <button className=""
-                    // onClick={addElement} 
-                    >+</button>
-                </div>
+                {/* <div className=""> */}
+                <button
+                // onClick={addElement} 
+                >
+                    <span class="material-icons-round">
+                        add_circle
+                    </span>
+                </button>
+                {/* </div> */}
             </div>
         </div>
     )
