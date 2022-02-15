@@ -1,10 +1,14 @@
-import react from "react";
+import React from "react";
+import CMSnavSidebar from './CMSnavSidebar';
 
 // login function!
 
 function CMSadmin() {
     return (
-        <div className="admin-page--content-input-box">
+        <div className="admin-page">
+
+            <CMSnavSidebar />
+
             <div>
                 <h1>Projekt hinzufügen</h1>
                 <input
