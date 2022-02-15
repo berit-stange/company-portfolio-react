@@ -536,10 +536,20 @@ button {
   font-size: 1.1rem;
 }
 
-.admin-page--content-input-box {
-  border-radius: 0.5em;
+.admin-page {
   padding: 0.5em 1em 1em 0.5em;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.admin-nav-sidebar {
+  background-color: #79b988;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -547,6 +557,15 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.admin-nav-sidebar ul {
+  list-style: none;
+}
+
+.admin-nav-sidebar ul a {
+  color: #121420;
+  text-decoration: none;
 }
 
 @media all and (min-width: 576px) and (max-width: 768px) {
