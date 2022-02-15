@@ -9,7 +9,7 @@ function CMSadmin() {
 
             <CMSnavSidebar />
 
-            <div>
+            <div className="admin-content-container">
                 <h1>Projekt hinzufügen</h1>
                 <input
                     placeholder="Titel"
