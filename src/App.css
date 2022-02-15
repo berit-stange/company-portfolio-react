@@ -375,16 +375,13 @@ h3 {
 }
 
 input {
-  background-color: #79b988;
-  border: none;
+  background-color: #F4F3F1;
+  border: 2px solid #79b988;
   border-radius: 0.5em;
   color: #121420;
   font-family: "Roboto Slab", serif;
   margin: 0.5rem;
   padding: 0.4rem;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 input:focus-visible {
