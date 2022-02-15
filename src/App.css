@@ -374,6 +374,91 @@ h3 {
   margin-left: 15px;
 }
 
+input {
+  background-color: #79b988;
+  border: none;
+  border-radius: 0.5em;
+  color: #121420;
+  font-family: "Roboto Slab", serif;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+button {
+  background-color: #F4F3F1;
+  border: 0;
+  color: #121420;
+  cursor: pointer;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1rem;
+}
+
+.admin-add-btn {
+  height: 100px;
+  width: 100px;
+}
+
+.material-icons-round {
+  color: #79b988;
+  font-size: 10em;
+}
+
+.admin-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.admin-nav-sidebar {
+  background-color: #79b988;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 20vw;
+}
+
+.admin-nav-sidebar ul {
+  list-style: none;
+}
+
+.admin-nav-sidebar ul a {
+  color: #121420;
+  text-decoration: none;
+}
+
+.admin-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+
+.admin-content-input {
+  height: 10vh;
+}
+
 @media all and (min-width: 1400px) {
   .grid-container-mix {
     display: -ms-grid;
@@ -508,76 +593,6 @@ h3 {
     height: 350px;
     width: 350px;
   }
-}
-
-input {
-  background-color: #79b988;
-  border: none;
-  border-radius: 0.5em;
-  color: #121420;
-  font-family: "Roboto Slab", serif;
-  margin: 0.5rem;
-  padding: 0.4rem;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-input:focus-visible {
-  outline: none;
-}
-
-button {
-  background-color: #F4F3F1;
-  border: 0;
-  color: #121420;
-  cursor: pointer;
-  font-family: "Roboto Slab", serif;
-  font-size: 1.1rem;
-}
-
-.admin-page {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin: 0;
-  min-height: 100vh;
-}
-
-.admin-nav-sidebar {
-  background-color: #79b988;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 20vw;
-}
-
-.admin-nav-sidebar ul {
-  list-style: none;
-}
-
-.admin-nav-sidebar ul a {
-  color: #121420;
-  text-decoration: none;
-}
-
-.admin-content-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100%;
 }
 
 @media all and (min-width: 576px) and (max-width: 768px) {
