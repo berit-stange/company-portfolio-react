@@ -1,5 +1,6 @@
 import React from "react";
 import CMSnavSidebar from './CMSnavSidebar';
+import CMSallPages from './CMSallPages';
 
 // login function!
 
@@ -43,6 +44,9 @@ function CMSadmin() {
                         </span>
                     </button>
                 </div>
+
+                <CMSallPages />
+
             </div>
         </div>
     )
