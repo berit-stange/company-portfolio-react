@@ -408,10 +408,10 @@ button {
 
 .material-icons-round {
     // justify-self: end;
-    color: $accent-color;
+    color: $dark-color;
     // height: 100px;
     // width: 100px;
-    font-size: 10em;
+    font-size: 5em;
 }
 
 .admin-page {
@@ -446,6 +446,23 @@ button {
 
 .admin-content-input {
     height: 10vh;
+}
+
+.overview-row {
+    background-color: $accent-color;
+    border-radius: 0.5em;
+    color: $dark-color;
+    font-family: $font-serif;
+    font-weight: $font-regular;
+    margin: 0.5rem;
+    padding: 0.4rem 0.4rem 0.4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-settings {
+    font-size: 2.5em;
+    align-self: center;
 }
 
 

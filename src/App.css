@@ -403,8 +403,8 @@ button {
 }
 
 .material-icons-round {
-  color: #79b988;
-  font-size: 10em;
+  color: #121420;
+  font-size: 5em;
 }
 
 .admin-page {
@@ -454,6 +454,29 @@ button {
 
 .admin-content-input {
   height: 10vh;
+}
+
+.overview-row {
+  background-color: #79b988;
+  border-radius: 0.5em;
+  color: #121420;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 0.5rem;
+  padding: 0.4rem 0.4rem 0.4rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon-settings {
+  font-size: 2.5em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 @media all and (min-width: 1400px) {
