@@ -29,7 +29,7 @@ function CMSallPages() {
                     <span className="material-icons-round">settings</span>
                 </div> */}
 
-                <div>
+                <div className="filter-box">
                     Filter:
                     <button className="filter">Ausstellung</button>
                     <button className="filter">Shop</button>
