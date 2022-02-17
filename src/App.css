@@ -420,7 +420,7 @@ button {
 }
 
 .admin-nav-sidebar {
-  background-color: #79b988;
+  background-color: #121420;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -436,8 +436,16 @@ button {
 }
 
 .admin-nav-sidebar ul a {
-  color: #121420;
+  color: #79b988;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
   text-decoration: none;
+}
+
+.admin-nav-sidebar ul a li {
+  border-bottom: 1px solid #79b988;
+  width: 80%;
 }
 
 .admin-content-container {
@@ -457,7 +465,7 @@ button {
 }
 
 .overview-row {
-  background-color: #79b988;
+  border: 1px solid #121420;
   border-radius: 0.5em;
   color: #121420;
   font-family: "Roboto Slab", serif;

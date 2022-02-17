@@ -422,7 +422,8 @@ button {
 }
 
 .admin-nav-sidebar {
-    background-color: $accent-color;
+    background-color: $dark-color;
+    // color: $accent-color; //greift nicht bei den Links
     display: flex;
     flex-direction: column;
     width: 20vw;
@@ -431,8 +432,16 @@ button {
         list-style: none;
 
         a {
-            color: $dark-color;
+            color: $accent-color;
+            font-weight: $font-regular;
+            font-family: $font-sans;
+            line-height: 2;
             text-decoration: none;
+
+            li {
+                border-bottom: 1px solid $accent-color;
+                width: 80%;
+            }
         }
     }
 }
@@ -449,7 +458,8 @@ button {
 }
 
 .overview-row {
-    background-color: $accent-color;
+    // background-color: $dark-color;
+    border: 1px solid $dark-color;
     border-radius: 0.5em;
     color: $dark-color;
     font-family: $font-serif;
