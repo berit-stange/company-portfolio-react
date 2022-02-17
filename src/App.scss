@@ -512,7 +512,8 @@ table {
     margin: 0 auto;
 
     th {
-        background-color: $accent-color;
+        background-color: $dark-color;
+        color: $accent-color;
         padding: 0.4rem 0.4rem 0.4rem 2rem;
     }
 
