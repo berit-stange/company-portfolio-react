@@ -447,6 +447,14 @@ button {
     flex-direction: column;
     width: 100%;
     height: auto;
+
+    .filter {
+        background-color: $dark-color;
+        color: $base-color;
+        margin: 1em;
+        padding: 0.5em;
+        border-radius: 0.5em;
+    }
 }
 
 .admin-content-input {

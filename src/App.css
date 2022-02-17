@@ -461,6 +461,14 @@ button {
   height: auto;
 }
 
+.admin-content-container .filter {
+  background-color: #121420;
+  color: #F4F3F1;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+
 .admin-content-input {
   height: 10vh;
 }
