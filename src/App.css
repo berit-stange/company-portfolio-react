@@ -469,8 +469,12 @@ button {
   background-color: #121420;
   color: #F4F3F1;
   margin: 1em;
-  padding: 0.5em;
+  padding: 0.5em 1em 0.5em 1em;
   border-radius: 0.5em;
+}
+
+.admin-content-container .filter:hover {
+  background-color: #79b988;
 }
 
 .admin-content-input {

@@ -456,8 +456,12 @@ button {
         background-color: $dark-color;
         color: $base-color;
         margin: 1em;
-        padding: 0.5em;
+        padding: 0.5em 1em 0.5em 1em;
         border-radius: 0.5em;
+    }
+
+    .filter:hover {
+        background-color: $accent-color;
     }
 }
 
