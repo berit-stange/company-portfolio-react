@@ -53,6 +53,30 @@ function CMSallPages() {
                                 <span className="material-icons-round">delete</span>
                             </td>
                         </tr>
+                        <tr>
+                            <td>Projekt 3</td>
+                            <td>Shop</td>
+                            <td>
+                                <span className="material-icons-round">settings</span>
+                                <span className="material-icons-round">delete</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Projekt 4</td>
+                            <td>Shop</td>
+                            <td>
+                                <span className="material-icons-round">settings</span>
+                                <span className="material-icons-round">delete</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Projekt 5</td>
+                            <td>Shop</td>
+                            <td>
+                                <span className="material-icons-round">settings</span>
+                                <span className="material-icons-round">delete</span>
+                            </td>
+                        </tr>
                     </table>
                 </div>
 
