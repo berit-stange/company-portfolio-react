@@ -446,22 +446,25 @@ button {
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
     height: auto;
+    padding: 1rem;
 
     .filter-box {
         padding: 0.4rem 0.4rem 0.4rem 2rem;
-    }
 
-    .filter {
-        background-color: $dark-color;
-        color: $base-color;
-        margin: 1em;
-        padding: 0.5em 1em 0.5em 1em;
-        border-radius: 0.5em;
-    }
+        .filter {
+            background-color: $dark-color;
+            color: $base-color;
+            margin: 1em;
+            padding: 0.5em 1em 0.5em 1em;
+            border-radius: 0.5em;
+        }
 
-    .filter:hover {
-        background-color: $accent-color;
+        .filter:hover {
+            background-color: $accent-color;
+        }
     }
 }
 
@@ -501,6 +504,9 @@ table {
     font-family: $font-serif;
     font-weight: $font-regular;
     margin: 0.5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 
     th {
         padding: 0.4rem 0.4rem 0.4rem 2rem;

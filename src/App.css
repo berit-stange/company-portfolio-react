@@ -458,14 +458,17 @@ button {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   height: auto;
+  padding: 1rem;
 }
 
 .admin-content-container .filter-box {
   padding: 0.4rem 0.4rem 0.4rem 2rem;
 }
 
-.admin-content-container .filter {
+.admin-content-container .filter-box .filter {
   background-color: #121420;
   color: #F4F3F1;
   margin: 1em;
@@ -473,7 +476,7 @@ button {
   border-radius: 0.5em;
 }
 
-.admin-content-container .filter:hover {
+.admin-content-container .filter-box .filter:hover {
   background-color: #79b988;
 }
 
@@ -519,6 +522,9 @@ table {
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   margin: 0.5rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #overview-table th {
