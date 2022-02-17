@@ -407,10 +407,7 @@ button {
 }
 
 .material-icons-round {
-    // justify-self: end;
     color: $dark-color;
-    // height: 100px;
-    // width: 100px;
     font-size: 5em;
 }
 
@@ -423,13 +420,14 @@ button {
 
 .admin-nav-sidebar {
     background-color: $dark-color;
-    // color: $accent-color; //greift nicht bei den Links
+    // color: $accent-color; //greift nicht bei den Links, muss zu a
     display: flex;
     flex-direction: column;
     width: 20vw;
 
     ul {
         list-style: none;
+        padding: 15px;
 
         a {
             color: $accent-color;
@@ -440,7 +438,7 @@ button {
 
             li {
                 border-bottom: 1px solid $accent-color;
-                width: 80%;
+                width: 100%;
             }
         }
     }
@@ -468,12 +466,53 @@ button {
     padding: 0.4rem 0.4rem 0.4rem 2rem;
     display: flex;
     justify-content: space-between;
+
+    span {
+        align-self: center;
+        justify-self: end;
+        font-size: 2.5em;
+    }
 }
 
-.icon-settings {
-    font-size: 2.5em;
-    align-self: center;
+table {
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 100%;
 }
+
+#overview-table {
+    border: 1px solid $dark-color;
+    border-radius: 0.5em; //greift bei der div
+    color: $dark-color;
+    font-family: $font-serif;
+    font-weight: $font-regular;
+    margin: 0.5rem;
+
+    th {
+        padding: 0.4rem 0.4rem 0.4rem 2rem;
+    }
+
+    tr {
+        border-bottom: 1px solid $dark-color;
+        padding: 0.4rem 0.4rem 0.4rem 2rem;
+
+        td {
+            padding: 0.4rem 0.4rem 0.4rem 2rem;
+
+            span {
+                font-size: 2.5em;
+                float: right;
+            }
+        }
+    }
+
+    tr:last-child {
+        border-bottom: none;
+    }
+
+}
+
+
 
 
 

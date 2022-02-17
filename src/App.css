@@ -433,6 +433,7 @@ button {
 
 .admin-nav-sidebar ul {
   list-style: none;
+  padding: 15px;
 }
 
 .admin-nav-sidebar ul a {
@@ -445,7 +446,7 @@ button {
 
 .admin-nav-sidebar ul a li {
   border-bottom: 1px solid #79b988;
-  width: 80%;
+  width: 100%;
 }
 
 .admin-content-container {
@@ -480,11 +481,50 @@ button {
           justify-content: space-between;
 }
 
-.icon-settings {
-  font-size: 2.5em;
+.overview-row span {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  -ms-grid-column-align: end;
+      justify-self: end;
+  font-size: 2.5em;
+}
+
+table {
+  border-collapse: collapse;
+  overflow: hidden;
+  width: 100%;
+}
+
+#overview-table {
+  border: 1px solid #121420;
+  border-radius: 0.5em;
+  color: #121420;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  margin: 0.5rem;
+}
+
+#overview-table th {
+  padding: 0.4rem 0.4rem 0.4rem 2rem;
+}
+
+#overview-table tr {
+  border-bottom: 1px solid #121420;
+  padding: 0.4rem 0.4rem 0.4rem 2rem;
+}
+
+#overview-table tr td {
+  padding: 0.4rem 0.4rem 0.4rem 2rem;
+}
+
+#overview-table tr td span {
+  font-size: 2.5em;
+  float: right;
+}
+
+#overview-table tr:last-child {
+  border-bottom: none;
 }
 
 @media all and (min-width: 1400px) {
