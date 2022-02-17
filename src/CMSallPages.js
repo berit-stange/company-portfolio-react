@@ -29,7 +29,13 @@ function CMSallPages() {
                     <span className="material-icons-round">settings</span>
                 </div> */}
 
-
+                <div>
+                    Filter:
+                    <button>Ausstellung</button>
+                    <button>Shop</button>
+                    <button>Messe</button>
+                    <button>Display</button>
+                </div>
                 <div id="overview-table">
                     <table>
                         <tr>
@@ -63,7 +69,7 @@ function CMSallPages() {
                         </tr>
                         <tr>
                             <td>Projekt 4</td>
-                            <td>Shop</td>
+                            <td>Ausstellung</td>
                             <td>
                                 <span className="material-icons-round">settings</span>
                                 <span className="material-icons-round">delete</span>
