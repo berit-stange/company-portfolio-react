@@ -461,6 +461,10 @@ button {
   height: auto;
 }
 
+.admin-content-container .filter-box {
+  padding: 0.4rem 0.4rem 0.4rem 2rem;
+}
+
 .admin-content-container .filter {
   background-color: #121420;
   color: #F4F3F1;

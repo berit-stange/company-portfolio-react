@@ -448,6 +448,10 @@ button {
     width: 100%;
     height: auto;
 
+    .filter-box {
+        padding: 0.4rem 0.4rem 0.4rem 2rem;
+    }
+
     .filter {
         background-color: $dark-color;
         color: $base-color;
