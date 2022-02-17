@@ -547,11 +547,11 @@ table {
 
 #overview-table tr {
   border-bottom: 1px solid #121420;
-  padding: 0.4rem 0.4rem 0.4rem 2rem;
+  padding: 0.5;
 }
 
 #overview-table tr td {
-  padding: 0.4rem 0.4rem 0.4rem 2rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
 }
 
 #overview-table tr td span {
