@@ -31,10 +31,10 @@ function CMSallPages() {
 
                 <div>
                     Filter:
-                    <button>Ausstellung</button>
-                    <button>Shop</button>
-                    <button>Messe</button>
-                    <button>Display</button>
+                    <button className="filter">Ausstellung</button>
+                    <button className="filter">Shop</button>
+                    <button className="filter">Messe</button>
+                    <button className="filter">Display</button>
                 </div>
                 <div id="overview-table">
                     <table>
