@@ -512,6 +512,7 @@ table {
     margin: 0 auto;
 
     th {
+        background-color: $accent-color;
         padding: 0.4rem 0.4rem 0.4rem 2rem;
     }
 
@@ -531,6 +532,10 @@ table {
 
     tr:last-child {
         border-bottom: none;
+    }
+
+    tr:nth-child(odd) {
+        background-color: $accent-color-op;
     }
 
 }
