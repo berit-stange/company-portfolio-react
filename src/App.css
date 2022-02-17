@@ -407,6 +407,10 @@ button {
   font-size: 5em;
 }
 
+.material-icons-round:hover {
+  color: #79b988;
+}
+
 .admin-page {
   display: -webkit-box;
   display: -ms-flexbox;

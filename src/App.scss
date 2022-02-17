@@ -409,6 +409,10 @@ button {
     font-size: 5em;
 }
 
+.material-icons-round:hover {
+    color: $accent-color;
+}
+
 .admin-page {
     display: flex;
     flex-direction: row;
