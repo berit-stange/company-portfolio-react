@@ -11,7 +11,7 @@ function CMSallPages() {
 
                 <h1>Alle Seiten</h1>
 
-                <div className="overview-row">
+                {/* <div className="overview-row">
                     <p>Projekt 1</p>
                     <p>Ausstellung</p>
                     <span className="material-icons-round">settings</span>
@@ -27,7 +27,7 @@ function CMSallPages() {
                     <p>Projekt 3</p>
                     <p>Ausstellung</p>
                     <span className="material-icons-round">settings</span>
-                </div>
+                </div> */}
 
 
                 <div id="overview-table">
