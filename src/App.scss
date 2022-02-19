@@ -456,6 +456,8 @@ button {
 
     .filter-box {
         padding: 0.4rem 0.4rem 0.4rem 2rem;
+        display: flex;
+        justify-content: center;
 
         .filter {
             background-color: $dark-color;

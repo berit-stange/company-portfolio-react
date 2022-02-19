@@ -30,7 +30,7 @@ function CMSallPages() {
                 </div> */}
 
                 <div className="filter-box">
-                    Filter:
+                    {/* <p>Filter:</p> */}
                     <button className="filter">Ausstellung</button>
                     <button className="filter">Shop</button>
                     <button className="filter">Messe</button>
