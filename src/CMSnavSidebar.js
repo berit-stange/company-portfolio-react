@@ -20,6 +20,10 @@ function CMSnavSidebar() {
                         <li>Pages</li>
                     </Link>
 
+                    <Link to="/">
+                        <li>Website HOME</li>
+                    </Link>
+
                 </ul>
             </div>
 
