@@ -26,11 +26,15 @@ function ProjectsOverview() {
                     <div className="project-image-small"></div>
                     <div className="project-image-small"></div>
                     <div className="project-image-small"></div>
+
                     <div className="project-image-small"></div>
                     <div className="project-image-small"></div>
                     <div className="project-image-small"></div>
+
                     <div className="project-image-small"></div>
                     <div className="project-image-small"></div>
+                    <div className="project-image-small"></div>
+
                     <div className="project-image-small"></div>
                     <div className="project-image-small"></div>
                     <div className="project-image-small"></div>
