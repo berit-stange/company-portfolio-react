@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-import Navigation from './Navigation';
+// import Navigation from './Navigation';
 import ProjectsOverview from './ProjectsOverview';
 // import ProjectsSelection from './ProjectsSelection';
 import ProjectDetails from './ProjectDetails';
@@ -14,7 +14,7 @@ function App() {
   return (
     <div>
       <BrowserRouter >
-        <Navigation />
+        {/* <Navigation /> */}
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/projekte" element={<ProjectsOverview />} />
