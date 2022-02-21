@@ -8,22 +8,21 @@ function CMSnavSidebar() {
 
             <div>
                 <ul>
-                    <Link to="/projekte">
+                    <Link to="#">
                         <li>Projects</li>
                     </Link>
 
-                    <Link to="/projekt-details">
+                    <Link to="#">
                         <li>Media</li>
                     </Link>
 
-                    <Link to="/artikel">
+                    <Link to="#">
                         <li>Pages</li>
                     </Link>
 
                     <Link to="/">
                         <li>Website HOME</li>
                     </Link>
-
                 </ul>
             </div>
 
