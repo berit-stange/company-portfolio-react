@@ -46,12 +46,18 @@ body {
 }
 
 .nav-container {
+    background-color: $base-color;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid $dark-color-op;
     height: 105px;
+    width: 100%;
     padding: 2.5em 2em 2.5em 2em;
+    position: fixed;
+    top: 0;
+    z-index: 100;
 
     ul {
         display: flex;
@@ -76,6 +82,10 @@ body {
         }
 
     }
+
+    // div {
+    //     flex-grow: 1;
+    // }
 }
 
 h1 {
@@ -118,6 +128,7 @@ h3 {
 .main {
     max-width: 1220px;
     margin: 0 auto;
+    margin-top: 155px;
 }
 
 .title-center {
@@ -131,6 +142,7 @@ h3 {
     background-size: cover;
     // height: 75vh;
     // width: 100%;
+    margin-top: 105px;
     padding-bottom: 30px;
 
     img {
