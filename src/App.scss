@@ -217,10 +217,11 @@ h3 {
 .image-medium {
     // background-color: $accent-color;
     overflow: hidden;
+    // height: 300px;
 
     img {
         width: 100%;
-        position: relative;
+        // position: relative;
         top: -50%;
     }
 }
@@ -255,7 +256,7 @@ h3 {
 
     .grid-box {
         display: flex;
-        // height: 50vh;
+        height: 50vh;
         justify-content: center;
         align-items: center;
         // height: 100%;
@@ -626,7 +627,7 @@ table {
 
         .grid-box {
             display: flex;
-            height: 45vh;
+            // height: 45vh;
             justify-content: center;
             align-items: center;
         }

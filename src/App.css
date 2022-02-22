@@ -204,7 +204,6 @@ h3 {
 
 .image-medium img {
   width: 100%;
-  position: relative;
   top: -50%;
 }
 
@@ -237,6 +236,7 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 50vh;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -632,7 +632,6 @@ table {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 45vh;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
