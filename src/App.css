@@ -435,6 +435,45 @@ button {
   min-height: 100vh;
 }
 
+.admin-navbar-top {
+  background-color: #121420;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.admin-navbar-top ul {
+  list-style: none;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.admin-navbar-top ul a {
+  color: #79b988;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+  text-decoration: none;
+}
+
+.admin-navbar-top ul a li {
+  border-bottom: 1px solid #79b988;
+}
+
 .admin-nav-sidebar {
   background-color: #121420;
   display: -webkit-box;
