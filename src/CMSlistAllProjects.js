@@ -21,7 +21,7 @@ function CMSlistAllProjects() {
                     <table>
                         <tr>
                             <th>Title</th>
-                            <th>Type</th>
+                            <th>Kategorie</th>
                             <th>Action</th>
                         </tr>
                         <tr>
