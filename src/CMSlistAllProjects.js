@@ -8,7 +8,7 @@ function CMSlistAllProjects() {
 
             <div className="admin-content-container">
 
-                <h1>Alle Seiten</h1>
+                <h1>Alle Projekte</h1>
 
                 <div className="filter-box">
                     {/* <p>Filter:</p> */}
