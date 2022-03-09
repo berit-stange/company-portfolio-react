@@ -11,24 +11,6 @@ function CMSallPages() {
 
                 <h1>Alle Seiten</h1>
 
-                {/* <div className="overview-row">
-                    <p>Projekt 1</p>
-                    <p>Ausstellung</p>
-                    <span className="material-icons-round">settings</span>
-                </div>
-
-                <div className="overview-row">
-                    <p>Projekt 2</p>
-                    <p>Shop</p>
-                    <span className="material-icons-round">settings</span>
-                </div>
-
-                <div className="overview-row">
-                    <p>Projekt 3</p>
-                    <p>Ausstellung</p>
-                    <span className="material-icons-round">settings</span>
-                </div> */}
-
                 <div className="filter-box">
                     {/* <p>Filter:</p> */}
                     <button className="filter">Ausstellung</button>
