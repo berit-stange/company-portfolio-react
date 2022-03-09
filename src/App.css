@@ -459,6 +459,10 @@ button {
   padding: 0.5em;
 }
 
+.admin-navbar-top ul a:hover {
+  color: #F4F3F1;
+}
+
 .admin-navbar-top ul li {
   text-decoration: none;
 }

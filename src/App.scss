@@ -439,6 +439,10 @@ button {
             line-height: 2;
             text-decoration: none;
             padding: 0.5em;
+
+            &:hover {
+                color: $base-color;
+            }
         }
 
         li {
