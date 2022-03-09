@@ -7,7 +7,7 @@ function CMSaddProject() {
     return (
 
 
-        <div className="admin-content-container">
+        <div className="admin-add-project">
 
             <h1>Projekt hinzufügen</h1>
 
