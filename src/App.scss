@@ -444,7 +444,7 @@ button {
 
         a {
             color: $accent-color;
-            font-weight: $font-regular;
+            font-weight: $font-heavy;
             font-family: $font-sans;
             line-height: 2;
             text-decoration: none;
@@ -452,7 +452,6 @@ button {
         }
 
         li {
-            // border-bottom: 1px solid $accent-color;
             text-decoration: none;
         }
     }
@@ -468,7 +467,6 @@ button {
 
 .admin-nav-sidebar {
     background-color: $dark-color;
-    // color: $accent-color; //greift nicht bei den Links, muss zu a
     display: flex;
     flex-direction: column;
     width: 20vw;

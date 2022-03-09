@@ -13,7 +13,7 @@ function CMSnavbarTop() {
             <nav>
                 <ul>
                     <Link to="/">
-                        <li>HOME</li>
+                        <li>Website</li>
                     </Link>
 
                     <Link to="#">
