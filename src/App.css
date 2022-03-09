@@ -469,6 +469,8 @@ button {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 2rem;
+  text-decoration: none;
+  list-style: none;
 }
 
 .admin-nav-sidebar {

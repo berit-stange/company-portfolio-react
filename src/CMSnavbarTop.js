@@ -7,9 +7,10 @@ function CMSnavbarTop() {
 
         <div className="admin-navbar-top">
 
-            <div className="admin-navbar-top-logo">
-                ADMIN PANEL
-            </div>
+            <Link to="/admin" className="admin-navbar-top-logo">
+                <li>ADMIN PANEL</li>
+            </Link>
+
             <nav>
                 <ul>
                     <Link to="/">

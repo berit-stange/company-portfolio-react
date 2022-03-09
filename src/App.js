@@ -1,9 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
-// import Navigation from './Navigation';
 import ProjectsOverview from './ProjectsOverview';
-// import ProjectsSelection from './ProjectsSelection';
 import ProjectDetails from './ProjectDetails';
 import Home from './Home';
 import Footer from './Footer';
