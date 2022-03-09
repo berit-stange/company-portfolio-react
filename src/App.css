@@ -384,20 +384,6 @@ h3 {
   margin-left: 15px;
 }
 
-input {
-  background-color: #F4F3F1;
-  border: 2px solid #121420;
-  border-radius: 0.5em;
-  color: #121420;
-  font-family: "Roboto Slab", serif;
-  margin: 0.5rem;
-  padding: 0.4rem;
-}
-
-input:focus-visible {
-  outline: none;
-}
-
 button {
   background-color: #F4F3F1;
   border: 0;
@@ -528,6 +514,22 @@ button {
   padding: 1rem;
 }
 
+.admin-add-project .admin-content-input {
+  height: 10vh;
+  background-color: #fafafa;
+  border: 1px solid #05060e50;
+  border-radius: 0.5em;
+  color: #121420;
+  font-family: "Roboto Slab", serif;
+  margin: 0.5rem;
+  padding: 0.4rem;
+}
+
+.admin-add-project .admin-content-input:focus-visible {
+  outline: 4px dotted #121420;
+  border: 0px solid #05060e50;
+}
+
 .admin-content-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -564,10 +566,6 @@ button {
 .admin-content-container .filter-box .filter:hover {
   background-color: #79b988;
   color: #121420;
-}
-
-.admin-content-input {
-  height: 10vh;
 }
 
 .overview-row {

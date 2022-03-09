@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;600;700&display=swap");
 
 $base-color: #F4F3F1;
+$base-color-light: #fafafa;
 $dark-color: #121420;
 $dark-color-op: #05060e50;
 $accent-color: #79b988;
@@ -382,20 +383,8 @@ h3 {
 
 
 // _________________________CMSadmin
-input {
-    background-color: $base-color;
-    border: 2px solid $dark-color;
-    border-radius: 0.5em;
-    color: $dark-color;
-    font-family: $font-serif;
-    margin: 0.5rem;
-    padding: 0.4rem;
-    // flex-grow: 1;  //wenn aktiv, werden die Boxen bis unten gedehnt
 
-    &:focus-visible {
-        outline: none;
-    }
-}
+
 
 button {
     background-color: $base-color;
@@ -498,6 +487,24 @@ button {
     margin: 0 auto;
     height: auto;
     padding: 1rem;
+
+    // input {}
+
+    .admin-content-input {
+        height: 10vh;
+        background-color: $base-color-light;
+        border: 1px solid $dark-color-op;
+        border-radius: 0.5em;
+        color: $dark-color;
+        font-family: $font-serif;
+        margin: 0.5rem;
+        padding: 0.4rem;
+
+        &:focus-visible {
+            outline: 4px dotted $dark-color;
+            border: 0px solid $dark-color-op;
+        }
+    }
 }
 
 .admin-content-container {
@@ -527,10 +534,6 @@ button {
             color: $dark-color;
         }
     }
-}
-
-.admin-content-input {
-    height: 10vh;
 }
 
 .overview-row {
