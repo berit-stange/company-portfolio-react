@@ -446,6 +446,7 @@ button {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  padding-right: 1em;
 }
 
 .admin-navbar-top ul a {
@@ -461,7 +462,7 @@ button {
   text-decoration: none;
 }
 
-.admin-navbar-top .admin-navbar-top-logo {
+.admin-navbar-top-logo {
   padding: 0.5em 0.5em 0.5em 1em;
   color: #F4F3F1;
   font-family: "Montserrat", sans-serif;

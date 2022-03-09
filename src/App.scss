@@ -429,6 +429,7 @@ button {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+        padding-right: 1em;
 
         a {
             color: $accent-color;
@@ -444,7 +445,7 @@ button {
         }
     }
 
-    .admin-navbar-top-logo {
+    &-logo {
         padding: 0.5em 0.5em 0.5em 1em;
         color: $base-color;
         font-family: $font-sans;
