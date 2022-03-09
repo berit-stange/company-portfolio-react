@@ -458,6 +458,10 @@ button {
         font-size: $font-big;
         text-decoration: none;
         list-style: none;
+
+        &:hover {
+            color: $accent-color;
+        }
     }
 }
 

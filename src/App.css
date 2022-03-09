@@ -477,6 +477,10 @@ button {
   list-style: none;
 }
 
+.admin-navbar-top-logo:hover {
+  color: #79b988;
+}
+
 .admin-nav-sidebar {
   background-color: #121420;
   display: -webkit-box;
