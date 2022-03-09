@@ -531,8 +531,8 @@ button {
 }
 
 .admin-add-project .admin-content-input:focus-visible {
-  outline: 4px dotted #121420;
-  border: 0px solid #05060e50;
+  outline: 4px dotted #79b988;
+  border: 0px;
 }
 
 .admin-content-container {

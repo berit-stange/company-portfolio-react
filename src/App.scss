@@ -503,8 +503,8 @@ button {
         padding: 0.4rem;
 
         &:focus-visible {
-            outline: 4px dotted $dark-color;
-            border: 0px solid $dark-color-op;
+            outline: 4px dotted $accent-color;
+            border: 0px;
         }
     }
 }
