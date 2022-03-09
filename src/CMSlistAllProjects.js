@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // login function!
 
@@ -28,7 +29,9 @@ function CMSlistAllProjects() {
                             <td>Projekt 1</td>
                             <td>Ausstellung</td>
                             <td>
-                                <span className="material-icons-round">settings</span>
+                                <Link to="/admin/project">
+                                    <span className="material-icons-round">settings</span>
+                                </Link>
                                 <span className="material-icons-round">delete</span>
                             </td>
                         </tr>
@@ -36,7 +39,9 @@ function CMSlistAllProjects() {
                             <td>Projekt 2</td>
                             <td>Shop</td>
                             <td>
-                                <span className="material-icons-round">settings</span>
+                                <Link to="/admin/project">
+                                    <span className="material-icons-round">settings</span>
+                                </Link>
                                 <span className="material-icons-round">delete</span>
                             </td>
                         </tr>
@@ -44,7 +49,9 @@ function CMSlistAllProjects() {
                             <td>Projekt 3</td>
                             <td>Shop</td>
                             <td>
-                                <span className="material-icons-round">settings</span>
+                                <Link to="/admin/project">
+                                    <span className="material-icons-round">settings</span>
+                                </Link>
                                 <span className="material-icons-round">delete</span>
                             </td>
                         </tr>
@@ -52,7 +59,9 @@ function CMSlistAllProjects() {
                             <td>Projekt 4</td>
                             <td>Ausstellung</td>
                             <td>
-                                <span className="material-icons-round">settings</span>
+                                <Link to="/admin/project">
+                                    <span className="material-icons-round">settings</span>
+                                </Link>
                                 <span className="material-icons-round">delete</span>
                             </td>
                         </tr>
@@ -60,7 +69,9 @@ function CMSlistAllProjects() {
                             <td>Projekt 5</td>
                             <td>Shop</td>
                             <td>
-                                <span className="material-icons-round">settings</span>
+                                <Link to="/admin/project">
+                                    <span className="material-icons-round">settings</span>
+                                </Link>
                                 <span className="material-icons-round">delete</span>
                             </td>
                         </tr>

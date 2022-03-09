@@ -402,6 +402,7 @@ button {
 .material-icons-round {
   color: #121420;
   font-size: 5em;
+  cursor: pointer;
 }
 
 .material-icons-round:hover {
