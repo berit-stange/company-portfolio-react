@@ -419,7 +419,6 @@ button {
 
 .admin-navbar-top {
     background-color: $dark-color;
-    // color: $accent-color; //greift nicht bei den Links, muss zu a
     display: flex;
     width: 100%;
     align-items: center;
@@ -449,7 +448,7 @@ button {
         padding: 0.5em 0.5em 0.5em 1em;
         color: $base-color;
         font-family: $font-sans;
-        font-weight: 700;
+        font-weight: $font-heavy;
         font-size: $font-big;
     }
 }
@@ -471,6 +470,10 @@ button {
             line-height: 2;
             text-decoration: none;
 
+            &:hover {
+                font-weight: $font-heavy;
+            }
+
             li {
                 border-bottom: 1px solid $accent-color;
                 width: 100%;
@@ -487,8 +490,6 @@ button {
     margin: 0 auto;
     height: auto;
     padding: 1rem;
-
-    // input {}
 
     .admin-content-input {
         height: 10vh;

@@ -494,6 +494,10 @@ button {
   text-decoration: none;
 }
 
+.admin-nav-sidebar ul a:hover {
+  font-weight: 700;
+}
+
 .admin-nav-sidebar ul a li {
   border-bottom: 1px solid #79b988;
   width: 100%;
