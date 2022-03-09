@@ -21,6 +21,7 @@ function App() {
           <Route exact path="/projekt-details" element={<ProjectDetails />} />
           <Route exact path="/artikel" element={<ArticlePage />} />
           <Route exact path="/admin" element={<CMSadmin />} />
+          <Route exact path="/admin/project" element={<CMSadmin />} />
         </Routes>
         <Footer />
       </BrowserRouter>
