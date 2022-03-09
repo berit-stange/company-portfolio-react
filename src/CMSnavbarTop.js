@@ -4,32 +4,30 @@ import { Link } from 'react-router-dom';
 function CMSnavbarTop() {
 
     return (
-        <div>
 
-            <div className="admin-navbar-top">
+        <div className="admin-navbar-top">
+
+            <div className="admin-navbar-top-logo">
+                ADMIN PANEL
+            </div>
+            <nav>
                 <ul>
-
-
                     <Link to="/">
                         <li>HOME</li>
                     </Link>
 
                     <Link to="#">
-                        <li>Link 1</li>
+                        <li>Profil</li>
                     </Link>
 
                     <Link to="#">
-                        <li>Link 2</li>
+                        <li>Logout</li>
                     </Link>
-
-                    <Link to="#">
-                        <li>Link 3</li>
-                    </Link>
-
                 </ul>
-            </div>
+            </nav>
 
         </div>
+
     )
 }
 

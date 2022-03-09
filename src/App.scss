@@ -432,16 +432,15 @@ button {
     background-color: $dark-color;
     // color: $accent-color; //greift nicht bei den Links, muss zu a
     display: flex;
-    flex-direction: row;
     width: 100%;
-    // height: 50px;
+    align-items: center;
+    justify-content: space-between;
 
     ul {
         list-style: none;
-        padding: 15px;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: flex-end;
 
         a {
             color: $accent-color;
@@ -449,12 +448,21 @@ button {
             font-family: $font-sans;
             line-height: 2;
             text-decoration: none;
-
-            li {
-                border-bottom: 1px solid $accent-color;
-                // width: 100%;
-            }
+            padding: 0.5em;
         }
+
+        li {
+            // border-bottom: 1px solid $accent-color;
+            text-decoration: none;
+        }
+    }
+
+    .admin-navbar-top-logo {
+        padding: 0.5em 0.5em 0.5em 1em;
+        color: $base-color;
+        font-family: $font-sans;
+        font-weight: 700;
+        font-size: $font-big;
     }
 }
 
