@@ -1,9 +1,8 @@
 import React from "react";
-import CMSnavSidebar from './CMSnavSidebar';
 
 // login function!
 
-function CMSallPages() {
+function CMSlistAllProjects() {
     return (
         <div className="admin-page">
 
@@ -73,4 +72,4 @@ function CMSallPages() {
     )
 }
 
-export default CMSallPages;
+export default CMSlistAllProjects;
