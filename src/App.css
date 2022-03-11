@@ -531,11 +531,14 @@ button {
 }
 
 .admin-add-project .admin-content-input {
-  height: 10vh;
   background-color: #fafafa;
   border: 1px solid #05060e50;
   border-radius: 0.5em;
   color: #121420;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 10vh;
   font-family: "Roboto Slab", serif;
   margin: 0.5rem;
   padding: 0.4rem;

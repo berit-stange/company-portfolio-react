@@ -504,11 +504,12 @@ button {
     padding: 1rem;
 
     .admin-content-input {
-        height: 10vh;
         background-color: $base-color-light;
         border: 1px solid $dark-color-op;
         border-radius: 0.5em;
         color: $dark-color;
+        display: flex;
+        height: 10vh;
         font-family: $font-serif;
         margin: 0.5rem;
         padding: 0.4rem;
@@ -517,6 +518,10 @@ button {
             outline: 4px dotted $accent-color;
             border: 0px;
         }
+
+        // input{
+        //     text-align: start;
+        // }
     }
 }
 

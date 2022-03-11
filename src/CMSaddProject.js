@@ -22,12 +22,13 @@ function CMSaddProject() {
 
             <input
                 className="admin-content-input"
-                placeholder="Text 1"
+                placeholder="Text 1 --- als nächstes: Components für CMSallPages, 
+                CMSallProjects und CMSallMedia --- und vll ein CMS Dashboard als Startseite"
             />
 
             <input
                 className="admin-content-input"
-                placeholder="Text 2"
+                placeholder="Text 2 --- Text soll oben anfangen + Absatz kann man nicht machen > css"
             />
 
 
