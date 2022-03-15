@@ -7,7 +7,7 @@ function Navigation() {
     return (
         <div className="nav-container">
             <Link to="/">
-                <img src={logo} className="logo"></img>
+                <img src={logo} className="logo" alt="Logo company xy"></img>
             </Link>
 
             <div>
