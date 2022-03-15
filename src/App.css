@@ -696,6 +696,8 @@ table {
   .project-grid-container .project-image-small {
     height: 400px;
     width: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
 

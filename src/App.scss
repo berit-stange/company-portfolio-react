@@ -214,6 +214,7 @@ h3 {
 .image-medium {
     // background-color: $accent-color;
     overflow: hidden;
+    // object-fit: cover;
     // height: 300px;
 
     img {
@@ -669,6 +670,7 @@ table {
         .project-image-small {
             height: 400px;
             width: 400px;
+            object-fit: cover;
         }
     }
 
