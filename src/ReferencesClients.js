@@ -16,7 +16,7 @@ function ReferencesClients() {
                     <button className="btn-filter">Messe</button>
                 </div>
                 <div className="center">
-                    <div className="project-grid-container">
+                    <div className="references-container">
 
                         <Link to="/projekt-details">
                             <div className="project-image-small"></div>
