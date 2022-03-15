@@ -894,7 +894,23 @@ table {
 
 .references-container {
     min-height: 70vh;
-    gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
+    // gap: 30px;
+    // grid-template-columns: repeat(3, 1fr);
 
+}
+
+.references-ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    // max-height: 30vh;
+    text-decoration: none;
+}
+
+.references-a {
+    text-decoration: none;
+    color: $dark-color;
+    list-style: none;
+    // .references-li {
+    // }
 }

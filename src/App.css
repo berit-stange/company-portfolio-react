@@ -888,8 +888,21 @@ table {
 
 .references-container {
   min-height: 70vh;
-  gap: 30px;
+}
+
+.references-ul {
+  display: -ms-grid;
+  display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  text-decoration: none;
+}
+
+.references-a {
+  text-decoration: none;
+  color: #121420;
+  list-style: none;
 }
 /*# sourceMappingURL=App.css.map */
