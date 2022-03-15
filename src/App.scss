@@ -900,10 +900,8 @@ table {
 }
 
 .references-ul {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    columns: 3; //no grid
     column-gap: 30px;
-    // max-height: 30vh;
     text-decoration: none;
 }
 

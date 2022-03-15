@@ -891,10 +891,8 @@ table {
 }
 
 .references-ul {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
+  -webkit-columns: 3;
+          columns: 3;
   -webkit-column-gap: 30px;
           column-gap: 30px;
   text-decoration: none;

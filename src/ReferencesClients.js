@@ -18,6 +18,7 @@ function ReferencesClients() {
                 <div className="center">
                     <div className="references-container">
 
+                        {/* map through projects and sort client names */}
                         <ul className="references-ul">
                             <Link to="#" className="references-a">
                                 <li className="references-li">AAAAAA</li>
