@@ -27,19 +27,19 @@ function ReferencesClients() {
                                 <li className="references-li">BBBBBB</li>
                             </Link>
                             <Link to="#" className="references-a">
-                                <li className="references-li">CCCCCC</li>
+                                <li className="references-li">CCCCCC CCC CCCCCC</li>
                             </Link>
                             <Link to="#" className="references-a">
                                 <li className="references-li">DDDDDD</li>
                             </Link>
                             <Link to="#" className="references-a">
-                                <li className="references-li">EEEEEE</li>
+                                <li className="references-li">EEEEEE EEE EEEEEE</li>
                             </Link>
                             <Link to="#" className="references-a">
                                 <li className="references-li">FFFFFF</li>
                             </Link>
                             <Link to="#" className="references-a">
-                                <li className="references-li">GGGGGG</li>
+                                <li className="references-li">GGGGGG GGGGGGGGG GGG</li>
                             </Link>
                             <Link to="#" className="references-a">
                                 <li className="references-li">HHHHHH</li>
@@ -47,6 +47,16 @@ function ReferencesClients() {
                             <Link to="#" className="references-a">
                                 <li className="references-li">IIIIII</li>
                             </Link>
+                            <Link to="#" className="references-a">
+                                <li className="references-li">JJJ J JJJJJJ JJJ</li>
+                            </Link>
+                            <Link to="#" className="references-a">
+                                <li className="references-li">KKKKKKKKK</li>
+                            </Link>
+                            <Link to="#" className="references-a">
+                                <li className="references-li">LLLLLL</li>
+                            </Link>
+
                         </ul>
 
                     </div>
