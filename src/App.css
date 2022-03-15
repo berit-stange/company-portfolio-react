@@ -183,7 +183,7 @@ h3 {
 }
 
 .project-grid-container .project-image-small {
-  background-color: #79b988;
+  background-color: #49aa5f;
   background-image: url(/img/paperlove2.jpg);
   cursor: url(/img/sharp_add_circle_black_24dp.png), default;
   height: 300px;
@@ -194,7 +194,7 @@ h3 {
 }
 
 .image-large {
-  background-color: #79b988;
+  background-color: #49aa5f;
   height: 40vh;
 }
 
@@ -406,7 +406,7 @@ button {
 }
 
 .material-icons-round:hover {
-  color: #79b988;
+  color: #49aa5f;
 }
 
 .admin-page {
@@ -451,7 +451,7 @@ button {
 }
 
 .admin-navbar-top ul a {
-  color: #79b988;
+  color: #49aa5f;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   line-height: 2;
@@ -478,7 +478,7 @@ button {
 }
 
 .admin-navbar-top-logo:hover {
-  color: #79b988;
+  color: #49aa5f;
 }
 
 .admin-nav-sidebar {
@@ -499,7 +499,7 @@ button {
 }
 
 .admin-nav-sidebar ul a {
-  color: #79b988;
+  color: #49aa5f;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   line-height: 2;
@@ -511,7 +511,7 @@ button {
 }
 
 .admin-nav-sidebar ul a li {
-  border-bottom: 1px solid #79b988;
+  border-bottom: 1px solid #49aa5f;
   width: 100%;
 }
 
@@ -545,7 +545,7 @@ button {
 }
 
 .admin-add-project .admin-content-input:focus-visible {
-  outline: 4px dotted #79b988;
+  outline: 4px dotted #49aa5f;
   border: 0px;
 }
 
@@ -583,7 +583,7 @@ button {
 }
 
 .admin-content-container .filter-box .filter:hover {
-  background-color: #79b988;
+  background-color: #49aa5f;
   color: #121420;
 }
 
@@ -632,7 +632,7 @@ table {
 
 #overview-table th {
   background-color: #121420;
-  color: #79b988;
+  color: #49aa5f;
   padding: 0.4rem 0.4rem 0.4rem 2rem;
 }
 
@@ -888,6 +888,9 @@ table {
 
 .references-container {
   min-height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .references-ul {
@@ -896,6 +899,7 @@ table {
   -webkit-column-gap: 30px;
           column-gap: 30px;
   text-decoration: none;
+  width: 100vh;
 }
 
 .references-a {
@@ -905,6 +909,7 @@ table {
 }
 
 .references-a:hover {
-  color: #79b988;
+  color: #49aa5f;
+  text-decoration: underline;
 }
 /*# sourceMappingURL=App.css.map */
