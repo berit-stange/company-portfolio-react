@@ -888,5 +888,8 @@ table {
 
 .references-container {
   min-height: 70vh;
+  gap: 30px;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 /*# sourceMappingURL=App.css.map */

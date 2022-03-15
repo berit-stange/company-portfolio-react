@@ -8,7 +8,7 @@ function ReferencesClients() {
             <Navigation />
             <div className="main">
                 <h1>
-                    Projekte
+                    Referenzen
                 </h1>
                 <div className="filter-container">
                     <button className="btn-filter">Ausstellung</button>
@@ -18,15 +18,26 @@ function ReferencesClients() {
                 <div className="center">
                     <div className="references-container">
 
-                        <Link to="/projekt-details">
-                            <div className="project-image-small"></div>
-                        </Link>
-                        <Link to="/projekt-details">
-                            <div className="project-image-small"></div>
-                        </Link>
-                        <Link to="/projekt-details">
-                            <div className="project-image-small"></div>
-                        </Link>
+                        <ul className="references-ul">
+                            <Link to="#">
+                                <li className="references-li">AAAAAA</li>
+                            </Link>
+                            <Link to="#">
+                                <li className="references-li">BBBBBB</li>
+                            </Link>
+                            <Link to="#">
+                                <li className="references-li">CCCCCC</li>
+                            </Link>
+                            <Link to="#">
+                                <li className="references-li">DDDDDD</li>
+                            </Link>
+                            <Link to="#">
+                                <li className="references-li">EEEEEE</li>
+                            </Link>
+                            <Link to="#">
+                                <li className="references-li">FFFFFF</li>
+                            </Link>
+                        </ul>
 
                     </div>
                 </div>
