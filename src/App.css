@@ -903,4 +903,8 @@ table {
   color: #121420;
   list-style: none;
 }
+
+.references-a:hover {
+  color: #79b988;
+}
 /*# sourceMappingURL=App.css.map */
