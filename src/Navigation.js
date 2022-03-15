@@ -21,6 +21,9 @@ function Navigation() {
                     <Link to="/artikel">
                         <li>Artikel</li>
                     </Link>
+                    <Link to="/referenzen">
+                        <li>Referenzen</li>
+                    </Link>
                 </ul>
             </div>
 
