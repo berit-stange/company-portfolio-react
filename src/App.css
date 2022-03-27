@@ -9,7 +9,7 @@ body {
   font-family: "Roboto Slab", serif;
   font-size: 1.1rem;
   font-weight: 300;
-  background-color: #F4F3F1;
+  background-color: #fafafa;
   color: #121420;
   line-height: 1.5rem;
   margin: 0 auto;
@@ -906,6 +906,8 @@ table {
   text-decoration: none;
   color: #121420;
   list-style: none;
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .references-a:hover {

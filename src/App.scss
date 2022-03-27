@@ -41,7 +41,7 @@ body {
     font-family: $font-serif;
     font-size: $font-small;
     font-weight: $font-light;
-    background-color: $base-color;
+    background-color: $base-color-light;
     color: $dark-color;
     line-height: $font-medium;
     margin: 0 auto;
@@ -909,6 +909,8 @@ table {
     text-decoration: none;
     color: $dark-color;
     list-style: none;
+    font-size: $font-big;
+    line-height: 1.5;
 
     &:hover {
         color: $accent-color;
