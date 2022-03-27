@@ -11,25 +11,25 @@ function CMSaddProject() {
 
             <h1>Projekt hinzufügen</h1>
 
-            <input
+            <textarea
                 className="admin-content-input"
                 placeholder="Titel"
             // value={title}
             // onChange={(event) => {
             //     setElementTitle(event.target.value);
             // }}
-            />
+            ></textarea>
 
-            <input
+            <textarea
                 className="admin-content-input"
                 placeholder="Text 1 --- als nächstes: Components für CMSallPages, 
                 CMSallProjects und CMSallMedia --- und vll ein CMS Dashboard als Startseite"
-            />
+            ></textarea>
 
-            <input
+            <textarea
                 className="admin-content-input"
-                placeholder="Text 2 --- Text soll oben anfangen + Absatz kann man nicht machen > css"
-            />
+                placeholder="Text 2"
+            ></textarea>
 
 
             <div >
