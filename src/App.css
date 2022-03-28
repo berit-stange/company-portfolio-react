@@ -394,6 +394,7 @@ button {
 }
 
 .admin-add-btn {
+  background-color: #fafafa;
   height: 100px;
   width: 100px;
   float: right;
