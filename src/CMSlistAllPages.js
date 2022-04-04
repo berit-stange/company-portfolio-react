@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 
 // login function!
 
-function CMSlistAllProjects() {
+function CMSlistAllPages() {
     return (
-        <div className="">
+        <div className="pages-container">
 
-            <div className="admin-content-container">
+            <div className="">
 
-                <h1>Alle Projekte</h1>
+                <h1>Alle Seiten</h1>
 
                 <div className="filter-box">
                     {/* <p>Filter:</p> */}
-                    <button className="filter">Ausstellung</button>
-                    <button className="filter">Shop</button>
-                    <button className="filter">Messe</button>
-                    <button className="filter">Display</button>
+                    {/* <button className="filter">Ausstellung</button> */}
+                    {/* <button className="filter">Shop</button> */}
+                    {/* <button className="filter">Messe</button> */}
+                    {/* <button className="filter">Display</button> */}
                 </div>
                 <div id="overview-table">
                     <table>
@@ -26,8 +26,8 @@ function CMSlistAllProjects() {
                             <th>Action</th>
                         </tr>
                         <tr>
-                            <td>Projekt 1</td>
-                            <td>Ausstellung</td>
+                            <td>Impressum</td>
+                            <td>xxxxx</td>
                             <td>
                                 <Link to="/admin/project">
                                     <span className="material-icons-round">settings</span>
@@ -36,8 +36,8 @@ function CMSlistAllProjects() {
                             </td>
                         </tr>
                         <tr>
-                            <td>Projekt 2</td>
-                            <td>Shop</td>
+                            <td>Datenschutz</td>
+                            <td>xxxxx</td>
                             <td>
                                 <Link to="/admin/project">
                                     <span className="material-icons-round">settings</span>
@@ -46,28 +46,8 @@ function CMSlistAllProjects() {
                             </td>
                         </tr>
                         <tr>
-                            <td>Projekt 3</td>
-                            <td>Shop</td>
-                            <td>
-                                <Link to="/admin/project">
-                                    <span className="material-icons-round">settings</span>
-                                </Link>
-                                <span className="material-icons-round">delete</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Projekt 4</td>
-                            <td>Ausstellung</td>
-                            <td>
-                                <Link to="/admin/project">
-                                    <span className="material-icons-round">settings</span>
-                                </Link>
-                                <span className="material-icons-round">delete</span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Projekt 5</td>
-                            <td>Shop</td>
+                            <td>Über uns</td>
+                            <td>xxxx</td>
                             <td>
                                 <Link to="/admin/project">
                                     <span className="material-icons-round">settings</span>
@@ -83,4 +63,4 @@ function CMSlistAllProjects() {
     )
 }
 
-export default CMSlistAllProjects;
+export default CMSlistAllPages;

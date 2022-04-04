@@ -1,8 +1,9 @@
 import React from "react";
 import CMSnavSidebar from './CMSnavSidebar';
-import CMSlistAllProjects from './CMSlistAllProjects';
 import CMSnavbarTop from "./CMSnavbarTop";
 import CMSaddProject from "./CMSaddProject";
+import CMSlistAllProjects from './CMSlistAllProjects';
+import CMSlistAllPages from "./CMSlistAllPages";
 
 // login function!
 
@@ -21,6 +22,8 @@ function CMSadmin() {
                     <CMSaddProject />
 
                     <CMSlistAllProjects />
+
+                    <CMSlistAllPages />
 
                 </div>
             </div>

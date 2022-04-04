@@ -667,6 +667,10 @@ table {
   background-color: #79b98831;
 }
 
+.pages-container {
+  padding-top: 5rem;
+}
+
 @media all and (min-width: 1400px) {
   .grid-container-mix {
     display: -ms-grid;
