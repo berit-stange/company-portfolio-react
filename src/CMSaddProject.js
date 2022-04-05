@@ -22,12 +22,10 @@ function CMSaddProject() {
 
             <textarea
                 className="admin-content-input"
-                placeholder="Text 1 --- als nächstes: 
-                Components für: 
-                - CMSallPages 
-                - CMSallProjects 
-                - CMSallMedia 
-                - vll ein CMS Dashboard als Startseite (> Inhalte? )"
+                placeholder="als nächstes: 
+                - Component für CMSallMedia 
+                - Footer Farbe (wie Header?)
+                - vll ein CMS Dashboard als Startseite (> Inhalte? Buttons oder Mini-Vorschau für Komponenten)"
             ></textarea>
 
             <textarea
