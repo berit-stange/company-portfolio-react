@@ -4,6 +4,7 @@ import CMSnavbarTop from "./CMSnavbarTop";
 import CMSaddProject from "./CMSaddProject";
 import CMSlistAllProjects from './CMSlistAllProjects';
 import CMSlistAllPages from "./CMSlistAllPages";
+import CMSlistAllMedia from "./CMSlistAllMedia";
 
 // login function!
 
@@ -24,6 +25,8 @@ function CMSadmin() {
                     <CMSlistAllProjects />
 
                     <CMSlistAllPages />
+
+                    <CMSlistAllMedia />
 
                 </div>
             </div>
