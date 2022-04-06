@@ -7,15 +7,15 @@ function CMSnavSidebar() {
         <div className="admin-nav-sidebar">
 
             <ul>
-                <Link to="#">
+                <Link to="/admin/projects">
                     <li>Projects</li>
                 </Link>
 
-                <Link to="#">
+                <Link to="/admin/media">
                     <li>Media</li>
                 </Link>
 
-                <Link to="#">
+                <Link to="/admin/pages">
                     <li>Pages</li>
                 </Link>
 
