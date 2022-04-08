@@ -13,7 +13,7 @@ function CMSeditProject() {
 
                     <h1>Projekt bearbeiten</h1>
 
-                    <input
+                    <textarea
                         className="admin-content-input"
                         placeholder="Lölölölö"
                     // value={title}
@@ -22,12 +22,12 @@ function CMSeditProject() {
                     // }}
                     />
 
-                    <input
+                    <textarea
                         className="admin-content-input"
                         placeholder="Text Text Text TextTextTextText TextText"
                     />
 
-                    <input
+                    <textarea
                         className="admin-content-input"
                         placeholder="Text Text Text TextTextTextText TextTextText TextTextTextText TextText"
                     />
