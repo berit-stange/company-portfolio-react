@@ -8,9 +8,9 @@ import Footer from './Footer';
 import ArticlePage from './ArticlePage';
 import CMSadmin from './CMSadmin';
 import CMSlistAllProjects from './CMSlistAllProjects';
-import CMSlistAllPages from './CMSlistAllPages';
 import ReferencesClients from './ReferencesClients';
 import CMSallMediaView from './CMSallMediaView';
+import CMSallPagesView from './CMSallPagesView';
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
           <Route exact path="/admin" element={<CMSadmin />} />
           <Route exact path="/admin/projects" element={<CMSlistAllProjects />} />
           <Route exact path="/admin/media" element={<CMSallMediaView />} />
-          <Route exact path="/admin/pages" element={<CMSlistAllPages />} />
+          <Route exact path="/admin/pages" element={<CMSallPagesView />} />
         </Routes>
         <Footer />
       </BrowserRouter>
