@@ -650,7 +650,21 @@ table {
     }
 }
 
+// media view
+.media-card-container {
+    display: grid;
+    // grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+    // height: 100vh;
+    margin: 1em;
+}
 
+.media-card {
+    background-color: $accent-color-op;
+    height: 100px;
+    border-radius: 0.5em;
+}
 
 
 

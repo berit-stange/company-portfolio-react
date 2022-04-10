@@ -687,6 +687,21 @@ table {
   padding: 1.5em 1em 1.5em 1em;
 }
 
+.media-card-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  gap: 1em;
+  margin: 1em;
+}
+
+.media-card {
+  background-color: #79b98831;
+  height: 100px;
+  border-radius: 0.5em;
+}
+
 @media all and (min-width: 1400px) {
   .grid-container-mix {
     display: -ms-grid;
