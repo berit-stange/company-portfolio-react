@@ -69,16 +69,48 @@ function CMSlistAllMedia() {
 
             {/* start madia cards */}
             <div className="media-card-container">
-                <div className="media-card"></div>
-                <div className="media-card"></div>
-                <div className="media-card"></div>
-                <div className="media-card"></div>
-                <div className="media-card"></div>
-                <div className="media-card"></div>
-                <div className="media-card"></div>
-                <div className="media-card"></div>
-                <div className="media-card"></div>
-                <div className="media-card"></div>
+                <div className="media-card">
+                    <div className="media-title">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                    </div>
+                </div>
+                <div className="media-card">
+                    <div className="media-title">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                    </div>
+                </div>
+                <div className="media-card">
+                    <div className="media-title">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                    </div>
+                </div>
+                <div className="media-card">
+                    <div className="media-title">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                    </div>
+                </div>
+                <div className="media-card">
+                    <div className="media-title">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                    </div>
+                </div>
+                <div className="media-card">
+                    <div className="media-title">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                    </div>
+                </div>
+                <div className="media-card">
+                    <div className="media-title">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                    </div>
+                </div>
             </div>
             {/* end madia cards */}
 
