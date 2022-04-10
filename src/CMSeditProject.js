@@ -15,7 +15,8 @@ function CMSeditProject() {
 
                     <textarea
                         className="admin-content-input"
-                        placeholder="Lölölölö"
+                        placeholder="Text aus Datenbank
+                        Lölölölö"
                     // value={title}
                     // onChange={(event) => {
                     //     setElementTitle(event.target.value);
