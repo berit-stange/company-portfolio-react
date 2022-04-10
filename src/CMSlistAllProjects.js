@@ -29,7 +29,7 @@ function CMSlistAllProjects() {
                             <td>Projekt 1</td>
                             <td>Ausstellung</td>
                             <td>
-                                <Link to="/admin/project">
+                                <Link to="/admin/edit-project">
                                     <span className="material-icons-round">settings</span>
                                 </Link>
                                 <span className="material-icons-round">delete</span>
