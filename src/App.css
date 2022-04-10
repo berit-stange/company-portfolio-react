@@ -698,8 +698,31 @@ table {
 
 .media-card {
   background-color: #79b98831;
-  height: 100px;
+  height: 150px;
   border-radius: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.media-card:hover {
+  background-color: #49aa5f;
+}
+
+.media-title {
+  text-align: center;
+  color: transparent;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.media-title:hover {
+  color: #121420;
+  font-weight: 700;
 }
 
 @media all and (min-width: 1400px) {
