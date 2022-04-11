@@ -663,27 +663,30 @@ table {
 
 .media-card {
     background-color: $accent-color-op;
-    height: 150px;
+    height: auto;
     border-radius: 0.5em;
     display: flex;
     justify-content: center;
-
+    color: transparent;
     &:hover {
         background-color: $accent-color;
+        color: $dark-color;
+        font-weight: $font-heavy;
     }
 }
 
 .media-title {
     text-align: center;
     // visibility: hidden; //visible on hover funktioniert nicht - warum?
-    color: transparent;
     align-self: center;
-    // justify-self: center;
 
-    &:hover {
-        // visibility: visible; 
-        color: $dark-color;
-        font-weight: $font-heavy;
+    .material-icons-round {
+        font-size: $font-big;
+        color: transparent;
+
+        &:hover {
+            color: $dark-color;
+        }
     }
 }
 

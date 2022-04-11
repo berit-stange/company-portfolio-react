@@ -698,7 +698,7 @@ table {
 
 .media-card {
   background-color: #79b98831;
-  height: 150px;
+  height: auto;
   border-radius: 0.5em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -706,23 +706,29 @@ table {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: transparent;
 }
 
 .media-card:hover {
   background-color: #49aa5f;
+  color: #121420;
+  font-weight: 700;
 }
 
 .media-title {
   text-align: center;
-  color: transparent;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
-.media-title:hover {
+.media-title .material-icons-round {
+  font-size: 2rem;
+  color: transparent;
+}
+
+.media-title .material-icons-round:hover {
   color: #121420;
-  font-weight: 700;
 }
 
 @media all and (min-width: 1400px) {
