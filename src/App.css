@@ -698,6 +698,9 @@ table {
 
 .media-card {
   background-color: #79b98831;
+  background-image: url(/img/paperlove1.jpg);
+  background-position: center;
+  background-size: cover;
   height: auto;
   border-radius: 0.5em;
   display: -webkit-box;
@@ -724,7 +727,7 @@ table {
 
 .media-title .material-icons-round {
   font-size: 2rem;
-  color: transparent;
+  color: #121420;
 }
 
 .media-title .material-icons-round:hover {

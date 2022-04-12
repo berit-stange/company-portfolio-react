@@ -73,7 +73,6 @@ function CMSlistAllMedia() {
                     <div className="media-title">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
-
                         <Link to="/admin/project">
                             <span className="material-icons-round ">settings</span>
                         </Link>
@@ -84,36 +83,60 @@ function CMSlistAllMedia() {
                     <div className="media-title">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round ">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
                     </div>
                 </div>
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round ">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
                     </div>
                 </div>
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round ">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
                     </div>
                 </div>
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round ">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
                     </div>
                 </div>
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round ">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
                     </div>
                 </div>
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round ">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
                     </div>
                 </div>
             </div>

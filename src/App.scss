@@ -663,6 +663,9 @@ table {
 
 .media-card {
     background-color: $accent-color-op;
+    background-image: url(/img/paperlove1.jpg);
+    background-position: center;
+    background-size: cover;
     height: auto;
     border-radius: 0.5em;
     display: flex;
@@ -682,7 +685,7 @@ table {
 
     .material-icons-round {
         font-size: $font-big;
-        color: transparent;
+        color: $dark-color;
 
         &:hover {
             color: $dark-color;
