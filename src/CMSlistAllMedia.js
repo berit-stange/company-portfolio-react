@@ -26,7 +26,7 @@ function CMSlistAllMedia() {
             </div>
 
             {/* start table */}
-            <div id="overview-table">
+            {/* <div id="overview-table">
                 <table>
                     <tr>
                         <th>Title</th>
@@ -64,7 +64,7 @@ function CMSlistAllMedia() {
                         </td>
                     </tr>
                 </table>
-            </div>
+            </div> */}
             {/* end table */}
 
             {/* start madia cards */}
