@@ -404,15 +404,15 @@ button {
     float: right;
 }
 
-.material-icons-round {
-    color: $dark-color;
-    font-size: 5em;
-    cursor: pointer;
-}
+// .material-icons-round {
+//     color: $dark-color;
+//     font-size: 5em;
+//     cursor: pointer;
+// }
 
-.material-icons-round:hover {
-    color: $accent-color;
-}
+// .material-icons-round:hover {
+//     color: $accent-color;
+// }
 
 .admin-page {
     display: flex;
@@ -632,6 +632,15 @@ table {
         background-color: $accent-color-op;
     }
 
+    .material-icons-round {
+        color: $dark-color;
+        cursor: pointer;
+
+        &:hover {
+            color: $accent-color;
+        }
+    }
+
 }
 
 .pages-container {
@@ -674,7 +683,7 @@ table {
     &:hover {
         background-color: $accent-color;
         color: $dark-color;
-        font-weight: $font-heavy;
+        // font-weight: $font-heavy;
     }
 }
 
@@ -683,14 +692,14 @@ table {
     // visibility: hidden; //visible on hover funktioniert nicht - warum?
     align-self: center;
 
-    .material-icons-round {
-        font-size: $font-big;
-        color: $dark-color;
+    // .material-icons-round {
+    //     font-size: $font-big;
+    //     color: $dark-color;
 
-        &:hover {
-            color: $dark-color;
-        }
-    }
+    //     &:hover {
+    //         color: $dark-color;
+    //     }
+    // }
 }
 
 

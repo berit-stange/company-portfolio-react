@@ -400,16 +400,6 @@ button {
   float: right;
 }
 
-.material-icons-round {
-  color: #121420;
-  font-size: 5em;
-  cursor: pointer;
-}
-
-.material-icons-round:hover {
-  color: #49aa5f;
-}
-
 .admin-page {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -667,6 +657,15 @@ table {
   background-color: #79b98831;
 }
 
+#overview-table .material-icons-round {
+  color: #121420;
+  cursor: pointer;
+}
+
+#overview-table .material-icons-round:hover {
+  color: #49aa5f;
+}
+
 .pages-container {
   padding-top: 5rem;
 }
@@ -715,7 +714,6 @@ table {
 .media-card:hover {
   background-color: #49aa5f;
   color: #121420;
-  font-weight: 700;
 }
 
 .media-title {
@@ -723,15 +721,6 @@ table {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-}
-
-.media-title .material-icons-round {
-  font-size: 2rem;
-  color: #121420;
-}
-
-.media-title .material-icons-round:hover {
-  color: #121420;
 }
 
 @media all and (min-width: 1400px) {

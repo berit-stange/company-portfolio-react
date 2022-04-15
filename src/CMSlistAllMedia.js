@@ -69,6 +69,7 @@ function CMSlistAllMedia() {
 
             {/* start madia cards */}
             <div className="media-card-container">
+
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
@@ -79,6 +80,7 @@ function CMSlistAllMedia() {
                         <span className="material-icons-round">delete</span>
                     </div>
                 </div>
+
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
@@ -89,6 +91,7 @@ function CMSlistAllMedia() {
                         <span className="material-icons-round">delete</span>
                     </div>
                 </div>
+
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
@@ -99,6 +102,7 @@ function CMSlistAllMedia() {
                         <span className="material-icons-round">delete</span>
                     </div>
                 </div>
+
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
@@ -109,6 +113,7 @@ function CMSlistAllMedia() {
                         <span className="material-icons-round">delete</span>
                     </div>
                 </div>
+
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
@@ -119,6 +124,7 @@ function CMSlistAllMedia() {
                         <span className="material-icons-round">delete</span>
                     </div>
                 </div>
+
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
@@ -129,6 +135,7 @@ function CMSlistAllMedia() {
                         <span className="material-icons-round">delete</span>
                     </div>
                 </div>
+
                 <div className="media-card">
                     <div className="media-title">
                         <p>Media Title XY</p>
@@ -139,6 +146,7 @@ function CMSlistAllMedia() {
                         <span className="material-icons-round">delete</span>
                     </div>
                 </div>
+
             </div>
             {/* end madia cards */}
 
