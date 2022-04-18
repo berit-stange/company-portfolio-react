@@ -383,10 +383,7 @@ h3 {
 }
 
 
-
 // _________________________CMSadmin
-
-
 
 button {
     background-color: $base-color;
@@ -545,7 +542,6 @@ button {
             }
         }
 
-        
     }
 }
 
@@ -661,36 +657,60 @@ table {
 }
 
 .media-card {
-    background-color: $accent-color-op;
-    background-image: url(/img/paperlove1.jpg);
-    background-position: center;
-    background-size: cover;
-    height: auto;
+    background-color: $dark-color;
+    // background-image: url(/img/paperlove1.jpg); 
+    // background-position: center; 
+    // background-size: cover; 
+    height: 10em;
+    width: 10em;
     border-radius: 0.5em;
     display: flex;
-    justify-content: center;
-    color: transparent;
+    flex-direction: column;
+    // color: transparent;
+    font-weight: $font-heavy;
+    text-align: center;
+    
+
+    img {
+        height: 10em;
+        // width: 10em;
+        object-fit: cover;
+        border-radius: 0.3em;
+    }      
+
     &:hover {
-        background-color: $accent-color;
         color: $dark-color;
-        // font-weight: $font-heavy;
+        background-color: $accent-color-op;
+        transition: 0.5s;
+
+        .hover-link {
+            visibility: visible;
+            // position: absolute;
+        }
     }
 }
 
-.media-title {
-    text-align: center;
-    // visibility: hidden; //visible on hover funktioniert nicht - warum?
-    align-self: center;
+.hover-link {
+    visibility: hidden;
+    position: absolute;
+    // display: block;
+    // margin: 0 auto;
 
-    // .material-icons-round {
-    //     font-size: $font-big;
-    //     color: $dark-color;
-
-    //     &:hover {
-    //         color: $dark-color;
-    //     }
-    // }
+    .material-icons-round {
+        color: $dark-color;
+    }
 }
+
+// .media-card:hover .hover-link {
+//     visibility: visible;
+//     background-color: $base-color;
+//     color: $dark-color;
+// }
+
+// .media-title {
+    // text-align: center;
+    // align-self: center;
+// }
 
 
 

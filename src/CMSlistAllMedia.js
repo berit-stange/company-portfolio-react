@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import paperlove1 from "./paperlove1.jpg";
 
 // login function!
 
@@ -31,22 +32,31 @@ function CMSlistAllMedia() {
             <div className="media-card-container">
 
                 <div className="media-card">
-                    <div className="media-title">
+                    <img src={paperlove1}></img>
+                    <div className="hover-link">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
-                        <div>
-                            <Link to="/admin/project" className="material-icons-round">
-                                <span className="material-icons-round">settings</span>
-                            </Link>
-                        </div>
-
+                        <Link to="/admin/project">
+                            <span className="material-icons-round">settings</span>
+                        </Link>
                         <span className="material-icons-round">delete</span>
-
                     </div>
                 </div>
 
                 <div className="media-card">
-                    <div className="media-title">
+                    <img src={paperlove1}></img>
+                    <div className="hover-link">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
+                    </div>
+                </div>
+
+                <div className="media-card">
+                    <div>
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
                         <span className="material-icons-round ">settings</span>
@@ -54,50 +64,8 @@ function CMSlistAllMedia() {
                     </div>
                 </div>
 
-                <div className="media-card">
-                    <div className="media-title">
-                        <p>Media Title XY</p>
-                        <p>media-file.jpg</p>
-                        <span className="material-icons-round ">settings</span>
-                        <span className="material-icons-round">delete</span>
-                    </div>
-                </div>
 
-                <div className="media-card">
-                    <div className="media-title">
-                        <p>Media Title XY</p>
-                        <p>media-file.jpg</p>
-                        <span className="material-icons-round ">settings</span>
-                        <span className="material-icons-round">delete</span>
-                    </div>
-                </div>
 
-                <div className="media-card">
-                    <div className="media-title">
-                        <p>Media Title XY</p>
-                        <p>media-file.jpg</p>
-                        <span className="material-icons-round ">settings</span>
-                        <span className="material-icons-round">delete</span>
-                    </div>
-                </div>
-
-                <div className="media-card">
-                    <div className="media-title">
-                        <p>Media Title XY</p>
-                        <p>media-file.jpg</p>
-                        <span className="material-icons-round ">settings</span>
-                        <span className="material-icons-round">delete</span>
-                    </div>
-                </div>
-
-                <div className="media-card">
-                    <div className="media-title">
-                        <p>Media Title XY</p>
-                        <p>media-file.jpg</p>
-                        <span className="material-icons-round ">settings</span>
-                        <span className="material-icons-round">delete</span>
-                    </div>
-                </div>
 
             </div>
             {/* end madia cards */}

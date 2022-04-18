@@ -696,31 +696,46 @@ table {
 }
 
 .media-card {
-  background-color: #79b98831;
-  background-image: url(/img/paperlove1.jpg);
-  background-position: center;
-  background-size: cover;
-  height: auto;
+  background-color: #121420;
+  height: 10em;
+  width: 10em;
   border-radius: 0.5em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  color: transparent;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 700;
+  text-align: center;
+}
+
+.media-card img {
+  height: 10em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0.3em;
 }
 
 .media-card:hover {
-  background-color: #49aa5f;
   color: #121420;
+  background-color: #79b98831;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.media-title {
-  text-align: center;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+.media-card:hover .hover-link {
+  visibility: visible;
+}
+
+.hover-link {
+  visibility: hidden;
+  position: absolute;
+}
+
+.hover-link .material-icons-round {
+  color: #121420;
 }
 
 @media all and (min-width: 1400px) {
