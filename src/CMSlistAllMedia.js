@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import paperlove1 from "./paperlove1.jpg";
+import paperlove2 from "./paperlove2.jpg";
 
 // login function!
 
@@ -44,6 +45,18 @@ function CMSlistAllMedia() {
                 </div>
 
                 <div className="media-card">
+                    <img src={paperlove2} alt="shop with white table"></img>
+                    <div className="hover-link">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
+                    </div>
+                </div>
+
+                <div className="media-card">
                     <img src={paperlove1} alt="shop with white table"></img>
                     <div className="hover-link">
                         <p>Media Title XY</p>
@@ -56,15 +69,64 @@ function CMSlistAllMedia() {
                 </div>
 
                 <div className="media-card">
-                    <div>
+                    <img src={paperlove2} alt="shop with white table"></img>
+                    <div className="hover-link">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
-                        <span className="material-icons-round ">settings</span>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round">settings</span>
+                        </Link>
                         <span className="material-icons-round">delete</span>
                     </div>
                 </div>
 
+                <div className="media-card">
+                    <img src={paperlove1} alt="shop with white table"></img>
+                    <div className="hover-link">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
+                    </div>
+                </div>
 
+                <div className="media-card">
+                    <img src={paperlove2} alt="shop with white table"></img>
+                    <div className="hover-link">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
+                    </div>
+                </div>
+
+                <div className="media-card">
+                    <img src={paperlove1} alt="shop with white table"></img>
+                    <div className="hover-link">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
+                    </div>
+                </div>
+
+                <div className="media-card">
+                    <img src={paperlove2} alt="shop with white table"></img>
+                    <div className="hover-link">
+                        <p>Media Title XY</p>
+                        <p>media-file.jpg</p>
+                        <Link to="/admin/project">
+                            <span className="material-icons-round">settings</span>
+                        </Link>
+                        <span className="material-icons-round">delete</span>
+                    </div>
+                </div>
 
 
             </div>
