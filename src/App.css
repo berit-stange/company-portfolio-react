@@ -709,6 +709,7 @@ table {
           flex-direction: column;
   font-weight: 700;
   text-align: center;
+  position: relative;
 }
 
 .media-card img {
@@ -720,18 +721,24 @@ table {
 
 .media-card:hover {
   color: #121420;
-  background-color: #79b98831;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
 }
 
 .media-card:hover .hover-link {
-  visibility: visible;
+  opacity: 1;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
 .hover-link {
-  visibility: hidden;
+  background-color: #49aa5f;
   position: absolute;
+  top: 0%;
+  border-radius: 0.3em;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
 }
 
 .hover-link .material-icons-round {

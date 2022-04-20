@@ -666,52 +666,46 @@ table {
     border-radius: 0.5em;
     display: flex;
     flex-direction: column;
-    // color: transparent;
     font-weight: $font-heavy;
     text-align: center;
-    
+    position: relative;
 
     img {
         height: 10em;
-        // width: 10em;
         object-fit: cover;
         border-radius: 0.3em;
     }      
 
     &:hover {
         color: $dark-color;
-        background-color: $accent-color-op;
-        transition: 0.5s;
 
         .hover-link {
-            visibility: visible;
-            // position: absolute;
+            opacity: 1;
+            transition: .5s ease;
         }
     }
 }
 
 .hover-link {
-    visibility: hidden;
+    background-color: $accent-color;
     position: absolute;
-    // display: block;
-    // margin: 0 auto;
-
+    top: 0%;
+    border-radius: 0.3em;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    
     .material-icons-round {
         color: $dark-color;
     }
 }
 
 // .media-card:hover .hover-link {
-//     visibility: visible;
-//     background-color: $base-color;
-//     color: $dark-color;
+    // visibility: visible;
+    // background-color: $base-color;
+    // color: $dark-color;
 // }
-
-// .media-title {
-    // text-align: center;
-    // align-self: center;
-// }
-
 
 
 // ---------------------------------- media queries 1400 - 1200 - 992 - 768 - 576

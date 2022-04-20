@@ -32,7 +32,7 @@ function CMSlistAllMedia() {
             <div className="media-card-container">
 
                 <div className="media-card">
-                    <img src={paperlove1}></img>
+                    <img src={paperlove1} alt="special project"></img>
                     <div className="hover-link">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
@@ -44,7 +44,7 @@ function CMSlistAllMedia() {
                 </div>
 
                 <div className="media-card">
-                    <img src={paperlove1}></img>
+                    <img src={paperlove1} alt="shop with white table"></img>
                     <div className="hover-link">
                         <p>Media Title XY</p>
                         <p>media-file.jpg</p>
