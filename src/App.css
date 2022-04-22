@@ -720,7 +720,7 @@ table {
 }
 
 .media-card:hover {
-  color: #121420;
+  color: #F4F3F1;
 }
 
 .media-card:hover .hover-link {
@@ -739,10 +739,11 @@ table {
   opacity: 0;
   -webkit-transition: .5s ease;
   transition: .5s ease;
+  color: #F4F3F1;
 }
 
 .hover-link .material-icons-round {
-  color: #121420;
+  color: #F4F3F1;
 }
 
 @media all and (min-width: 1400px) {

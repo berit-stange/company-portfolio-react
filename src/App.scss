@@ -677,7 +677,7 @@ table {
     }      
 
     &:hover {
-        color: $dark-color;
+        color: $base-color;
 
         .hover-link {
             opacity: 1;
@@ -695,9 +695,10 @@ table {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
+    color: $base-color;
     
     .material-icons-round {
-        color: $dark-color;
+        color: $base-color;
     }
 }
 
