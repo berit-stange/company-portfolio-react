@@ -395,8 +395,6 @@ button {
 
 .admin-add-btn {
   background-color: #fafafa;
-  height: 100px;
-  width: 100px;
   float: right;
 }
 
@@ -600,7 +598,6 @@ button {
       align-self: center;
   -ms-grid-column-align: end;
       justify-self: end;
-  font-size: 2.5em;
 }
 
 table {
@@ -645,7 +642,6 @@ table {
 }
 
 #overview-table tr td span {
-  font-size: 2.5em;
   float: right;
 }
 
