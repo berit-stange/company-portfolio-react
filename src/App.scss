@@ -6,8 +6,11 @@ $base-color-light: #fafafa;
 $dark-color: #121420;
 $dark-color-op: #05060e50;
 // $accent-color: #79b988;
-$accent-color: #49aa5f;
-$accent-color-op: #79b98831;
+// $accent-color: #49aa5f;
+// $accent-color-op: #79b98831;
+$accent-color: #e26c4e;
+$accent-color-op: #e26c4e70;
+$cms-accent-color: #e26c4e;
 $font-sans: 'Montserrat',
 sans-serif;
 $font-serif: 'Roboto Slab',
@@ -423,7 +426,7 @@ button {
         padding-right: 1em;
 
         a {
-            color: $accent-color;
+            color: $cms-accent-color;
             font-weight: $font-heavy;
             font-family: $font-sans;
             line-height: 2;
@@ -466,7 +469,7 @@ button {
         padding: 15px;
 
         a {
-            color: $accent-color;
+            color: $cms-accent-color;
             font-weight: $font-regular;
             font-family: $font-sans;
             line-height: 2;
@@ -477,7 +480,7 @@ button {
             }
 
             li {
-                border-bottom: 1px solid $accent-color;
+                border-bottom: 1px solid $cms-accent-color;
                 width: 100%;
             }
         }
