@@ -5,6 +5,7 @@ import CMSaddProject from "./CMSaddProject";
 import CMSlistAllProjects from './CMSlistAllProjects';
 import CMSlistAllPages from "./CMSlistAllPages";
 import CMSlistAllMedia from "./CMSlistAllMedia";
+import CMSfooter from "./CMSfooter";
 
 // login function!
 
@@ -31,6 +32,7 @@ function CMSadmin() {
                 </div>
             </div>
 
+            <CMSfooter />
         </div >
     )
 }
