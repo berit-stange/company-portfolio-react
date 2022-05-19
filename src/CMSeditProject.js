@@ -1,4 +1,5 @@
 import React from "react";
+import CMSfooter from "./CMSfooter";
 import CMSnavbarTop from "./CMSnavbarTop";
 import CMSnavSidebar from "./CMSnavSidebar";
 
@@ -47,6 +48,8 @@ function CMSeditProject() {
 
                 </div>
             </div>
+
+            <CMSfooter />
         </div>
 
     )
