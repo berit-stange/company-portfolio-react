@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
-
 function CMSfooter() {
     return (
         <div className="cms-footer-container">
@@ -22,6 +21,7 @@ function CMSfooter() {
                     </Link>
                 </ul>
             </div>
+
         </div>
     )
 }
