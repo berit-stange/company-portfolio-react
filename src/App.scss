@@ -708,6 +708,40 @@ table {
     // color: $dark-color;
 // }
 
+.cms-footer-container {
+    background-color: $dark-color;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid $dark-color-op;
+    height: 100px;
+    width: 100%;
+    // margin: 100px 0 0 0;
+    padding: 1em 0.7em 0 0.7em;
+
+    a {
+            color: $base-color;
+            text-decoration: none;
+
+            &:visited {
+                color: $base-color;
+            }
+        }
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            border-radius: 0.5em 0.5em;
+            list-style: none;
+            font-size: $font-small;
+            font-weight: $font-heavy;
+            margin-left: 15px;
+        }
+
+    }
+}
+
 
 // ---------------------------------- media queries 1400 - 1200 - 992 - 768 - 576
 
