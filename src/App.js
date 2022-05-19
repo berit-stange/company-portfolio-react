@@ -4,7 +4,6 @@ import './App.css';
 import ProjectsOverview from './ProjectsOverview';
 import ProjectDetails from './ProjectDetails';
 import Home from './Home';
-import Footer from './Footer';
 import ArticlePage from './ArticlePage';
 import CMSadmin from './CMSadmin';
 import ReferencesClients from './ReferencesClients';
@@ -30,7 +29,6 @@ function App() {
           <Route exact path="/admin/pages" element={<CMSallPagesView />} />
           <Route exact path="/admin/edit-project" element={<CMSeditProject />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
     </div>
   );
