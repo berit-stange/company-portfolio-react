@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 function CMSfooter() {
     return (
-        <div className="footer-container">
+        <div className="cms-footer-container">
             <Link to="/">
-                <img src={logo} className="logo"></img>
+                CMS ADMIN
             </Link>
 
             <div>
@@ -26,4 +26,4 @@ function CMSfooter() {
     )
 }
 
-export default CMSfooter;
+export default CMSfooter; 
