@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 import Navigation from './Navigation';
 import paperlove1 from "./paperlove1.jpg";
 import paperlove2 from "./paperlove2.jpg";
@@ -55,6 +56,8 @@ function ArticlePage() {
 
                 </div>
             </div>
+
+            <Footer />
         </div>
     )
 }
