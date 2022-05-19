@@ -3,6 +3,7 @@ import Navigation from './Navigation';
 import { Link } from 'react-router-dom';
 import paperlove1 from "./paperlove1.jpg";
 import paperlove2 from "./paperlove2.jpg";
+import Footer from "./Footer";
 
 function ProjectDetails() {
     return (
@@ -62,6 +63,8 @@ function ProjectDetails() {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </div>
     )
 }
