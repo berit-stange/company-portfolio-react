@@ -1,6 +1,7 @@
 import React from "react";
 import Navigation from './Navigation';
 import { Link } from 'react-router-dom';
+import Footer from "./Footer";
 
 function ProjectsOverview() {
     return (
@@ -44,6 +45,8 @@ function ProjectsOverview() {
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </div>
 
     )
