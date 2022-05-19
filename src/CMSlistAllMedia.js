@@ -28,7 +28,6 @@ function CMSlistAllMedia() {
             </div>
 
 
-
             {/* start madia cards */}
             <div className="media-card-container">
 
