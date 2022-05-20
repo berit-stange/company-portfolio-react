@@ -183,7 +183,7 @@ h3 {
 }
 
 .project-grid-container .project-image-small {
-  background-color: #e26c4e;
+  background-color: #c9634a;
   background-image: url(/img/paperlove2.jpg);
   cursor: url(/img/sharp_add_circle_black_24dp.png), default;
   height: 300px;
@@ -194,7 +194,7 @@ h3 {
 }
 
 .image-large {
-  background-color: #e26c4e;
+  background-color: #c9634a;
   height: 40vh;
 }
 
@@ -440,7 +440,7 @@ button {
 }
 
 .admin-navbar-top ul a {
-  color: #e26c4e;
+  color: #c9634a;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
   line-height: 2;
@@ -467,7 +467,7 @@ button {
 }
 
 .admin-navbar-top-logo:hover {
-  color: #e26c4e;
+  color: #c9634a;
 }
 
 .admin-nav-sidebar {
@@ -488,7 +488,7 @@ button {
 }
 
 .admin-nav-sidebar ul a {
-  color: #e26c4e;
+  color: #c9634a;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   line-height: 2;
@@ -500,7 +500,7 @@ button {
 }
 
 .admin-nav-sidebar ul a li {
-  border-bottom: 1px solid #e26c4e;
+  border-bottom: 1px solid #c9634a;
   width: 100%;
 }
 
@@ -534,7 +534,7 @@ button {
 }
 
 .admin-add-project .admin-content-input:focus-visible {
-  outline: 4px dotted #e26c4e;
+  outline: 4px dotted #c9634a;
   border: 0px;
 }
 
@@ -572,7 +572,7 @@ button {
 }
 
 .admin-content-container .filter-box .filter:hover {
-  background-color: #e26c4e;
+  background-color: #c9634a;
   color: #121420;
 }
 
@@ -620,7 +620,7 @@ table {
 
 #overview-table th {
   background-color: #121420;
-  color: #e26c4e;
+  color: #c9634a;
   padding: 0.4rem 0.4rem 0.4rem 2rem;
 }
 
@@ -659,7 +659,7 @@ table {
 }
 
 #overview-table .material-icons-round:hover {
-  color: #e26c4e;
+  color: #c9634a;
 }
 
 .pages-container {
@@ -726,7 +726,7 @@ table {
 }
 
 .hover-link {
-  background-color: #e26c4e;
+  background-color: #c9634a;
   position: absolute;
   top: 0%;
   border-radius: 0.3em;
@@ -1027,7 +1027,7 @@ table {
 }
 
 .references-a:hover {
-  color: #e26c4e;
+  color: #c9634a;
   text-decoration: underline;
 }
 /*# sourceMappingURL=App.css.map */
