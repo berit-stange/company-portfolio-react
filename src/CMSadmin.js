@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import CMSnavSidebar from './CMSnavSidebar';
 import CMSnavbarTop from "./CMSnavbarTop";
-import CMSaddProject from "./CMSaddProject";
-import CMSlistAllProjects from './CMSlistAllProjects';
-import CMSlistAllPages from "./CMSlistAllPages";
-import CMSlistAllMedia from "./CMSlistAllMedia";
+// import CMSaddProject from "./CMSaddProject";
+// import CMSlistAllProjects from './CMSlistAllProjects';
+// import CMSlistAllPages from "./CMSlistAllPages";
+// import CMSlistAllMedia from "./CMSlistAllMedia";
 import CMSfooter from "./CMSfooter";
 
 // login function!
@@ -21,13 +22,18 @@ function CMSadmin() {
 
                 <div className="admin-content-container">
 
-                    <CMSaddProject />
+                    <Link to="/admin/projects" className="dashboard-link">Projekt hinzufügen</Link>
+                    <Link to="/admin/projects" className="dashboard-link">Alle Projekte</Link>
+                    <Link to="/admin/projects" className="dashboard-link">Alle Seiten</Link>
+                    <Link to="/admin/projects" className="dashboard-link">Alle Medien</Link>
 
-                    <CMSlistAllProjects />
+                    {/* <CMSaddProject /> */}
 
-                    <CMSlistAllPages />
+                    {/* <CMSlistAllProjects /> */}
 
-                    <CMSlistAllMedia />
+                    {/* <CMSlistAllPages /> */}
+
+                    {/* <CMSlistAllMedia /> */}
 
                 </div>
             </div>
