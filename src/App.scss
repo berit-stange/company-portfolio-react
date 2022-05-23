@@ -530,7 +530,8 @@ align-items: center;
 
 .admin-content-container {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column; //vorher mit eingefügten Komponenten
+    flex-direction: row;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
