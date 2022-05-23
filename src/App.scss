@@ -487,6 +487,16 @@ button {
     }
 }
 
+.dashboard-link {
+width: 200px;
+height: 200px;
+background-color: $accent-color-op;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 .admin-add-project {
     display: flex;
     flex-direction: column;
