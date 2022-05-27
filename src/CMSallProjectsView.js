@@ -16,7 +16,7 @@ function CMSallProjectsView() {
 
                 <CMSnavSidebar />
 
-                <div className="admin-content-container">
+                <div className="admin-all-projects-container">
 
                     <CMSlistAllProjects />
 
