@@ -20,12 +20,15 @@ function CMSadmin() {
 
                 <CMSnavSidebar />
 
-                <div className="admin-content-container">
+                <div className="admin-content-container admin-dashboard-container">
+                    <div><Link to="/admin/projects" className="dashboard-link">Projekt hinzufügen</Link></div>
 
-                    <Link to="/admin/projects" className="dashboard-link">Projekt hinzufügen</Link>
-                    <Link to="/admin/projects" className="dashboard-link">Alle Projekte</Link>
-                    <Link to="/admin/projects" className="dashboard-link">Alle Seiten</Link>
-                    <Link to="/admin/projects" className="dashboard-link">Alle Medien</Link>
+                    <div><Link to="/admin/projects" className="dashboard-link">Alle Projekte</Link></div>
+
+                    <div><Link to="/admin/projects" className="dashboard-link">Alle Seiten</Link></div>
+
+                    <div><Link to="/admin/projects" className="dashboard-link">Alle Medien</Link></div>
+
 
                     {/* <CMSaddProject /> */}
 
