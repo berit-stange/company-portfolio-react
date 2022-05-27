@@ -487,14 +487,46 @@ button {
     }
 }
 
-.dashboard-link {
-width: 200px;
-height: 200px;
-background-color: $accent-color-op;
-border-radius: 50%;
-display: flex;
-justify-content: center;
-align-items: center;
+.admin-content-container {
+    display: flex;
+    // flex-direction: column; //vorher mit eingefügten Komponenten
+    flex-direction: row;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+    padding: 1rem;
+
+    .filter-box {
+        padding: 0.4rem 0.4rem 0.4rem 2rem;
+        display: flex;
+        justify-content: center;
+
+        .filter {
+            background-color: $dark-color;
+            color: $base-color;
+            margin: 1em;
+            padding: 0.5em 1em 0.5em 1em;
+            border-radius: 0.5em;
+
+            &:hover {
+                background-color: $accent-color;
+                color: $dark-color;
+            }
+        }
+
+    }
+
+    .dashboard-link {
+        width: 200px;
+        height: 200px;
+        background-color: $accent-color-op;
+        border-radius: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 .admin-add-project {
@@ -525,37 +557,6 @@ align-items: center;
         // input{
         //     text-align: start;
         // }
-    }
-}
-
-.admin-content-container {
-    display: flex;
-    // flex-direction: column; //vorher mit eingefügten Komponenten
-    flex-direction: row;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    height: auto;
-    padding: 1rem;
-
-    .filter-box {
-        padding: 0.4rem 0.4rem 0.4rem 2rem;
-        display: flex;
-        justify-content: center;
-
-        .filter {
-            background-color: $dark-color;
-            color: $base-color;
-            margin: 1em;
-            padding: 0.5em 1em 0.5em 1em;
-            border-radius: 0.5em;
-
-            &:hover {
-                background-color: $accent-color;
-                color: $dark-color;
-            }
-        }
-
     }
 }
 

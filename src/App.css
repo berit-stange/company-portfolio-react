@@ -504,11 +504,49 @@ button {
   width: 100%;
 }
 
-.dashboard-link {
+.admin-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  padding: 1rem;
+}
+
+.admin-content-container .filter-box {
+  padding: 0.4rem 0.4rem 0.4rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.admin-content-container .filter-box .filter {
+  background-color: #121420;
+  color: #F4F3F1;
+  margin: 1em;
+  padding: 0.5em 1em 0.5em 1em;
+  border-radius: 0.5em;
+}
+
+.admin-content-container .filter-box .filter:hover {
+  background-color: #c9634a;
+  color: #121420;
+}
+
+.admin-content-container .dashboard-link {
   width: 200px;
   height: 200px;
   background-color: #e26c4e70;
-  border-radius: 50%;
+  border-radius: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -552,44 +590,6 @@ button {
 .admin-add-project .admin-content-input:focus-visible {
   outline: 4px dotted #c9634a;
   border: 0px;
-}
-
-.admin-content-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  height: auto;
-  padding: 1rem;
-}
-
-.admin-content-container .filter-box {
-  padding: 0.4rem 0.4rem 0.4rem 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.admin-content-container .filter-box .filter {
-  background-color: #121420;
-  color: #F4F3F1;
-  margin: 1em;
-  padding: 0.5em 1em 0.5em 1em;
-  border-radius: 0.5em;
-}
-
-.admin-content-container .filter-box .filter:hover {
-  background-color: #c9634a;
-  color: #121420;
 }
 
 .overview-row {
