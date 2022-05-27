@@ -558,6 +558,12 @@ button {
           align-items: center;
 }
 
+.admin-dashboard-container {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .admin-all-projects-container {
   display: -webkit-box;
   display: -ms-flexbox;

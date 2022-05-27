@@ -529,6 +529,10 @@ button {
 
 }
 
+.admin-dashboard-container {
+    justify-content: space-between;
+}
+
 .admin-all-projects-container {
     display: flex;
     flex-direction: column;
