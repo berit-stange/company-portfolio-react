@@ -558,6 +558,21 @@ button {
           align-items: center;
 }
 
+.admin-all-projects-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  padding: 1rem;
+}
+
 .admin-add-project {
   display: -webkit-box;
   display: -ms-flexbox;
