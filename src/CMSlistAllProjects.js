@@ -7,7 +7,7 @@ function CMSlistAllProjects() {
     return (
         <div className="">
 
-            <div className="admin-all-projects-container">
+            <div className="admin-content-container admin-all-projects-container">
 
                 <h1>Alle Projekte</h1>
 
