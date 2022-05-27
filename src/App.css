@@ -543,8 +543,8 @@ button {
 }
 
 .admin-content-container .dashboard-link {
-  width: 200px;
-  height: 200px;
+  width: 18vw;
+  height: 18vw;
   background-color: #e26c4e70;
   border-radius: 20%;
   display: -webkit-box;
