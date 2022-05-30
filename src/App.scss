@@ -528,10 +528,12 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: background-color .5s ease-in-out;
     }
-    
+
     .dashboard-link:hover {
         background-color: $accent-color;
+        transition: background-color .5s ease-in-out;
     }
 
     .dashboard-link:visited {
