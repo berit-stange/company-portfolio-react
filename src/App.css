@@ -561,6 +561,10 @@ button {
           align-items: center;
 }
 
+.admin-content-container .dashboard-link:hover {
+  background-color: #c9634a;
+}
+
 .admin-content-container .dashboard-link:visited {
   color: #121420;
 }

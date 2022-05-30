@@ -530,6 +530,10 @@ button {
         align-items: center;
     }
     
+    .dashboard-link:hover {
+        background-color: $accent-color;
+    }
+
     .dashboard-link:visited {
         color: $dark-color;
     }
