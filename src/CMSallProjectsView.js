@@ -2,6 +2,7 @@ import React from "react";
 import CMSnavSidebar from './CMSnavSidebar';
 import CMSnavbarTop from "./CMSnavbarTop";
 import CMSlistAllProjects from "./CMSlistAllProjects";
+import CMSaddProject from "./CMSaddProject";
 import CMSfooter from "./CMSfooter";
 
 // login function!
@@ -17,6 +18,8 @@ function CMSallProjectsView() {
                 <CMSnavSidebar />
 
                 <div className="admin-content-container admin-all-projects-container">
+
+                    <CMSaddProject />
 
                     <CMSlistAllProjects />
 
