@@ -51,7 +51,7 @@ body {
 }
 
 .nav-container {
-    background-color: $base-color;
+    background-color: $base-color-light;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -713,7 +713,7 @@ table {
         height: 10em;
         object-fit: cover;
         border-radius: 0.3em;
-    }      
+    }
 
     &:hover {
         color: $base-color;
@@ -735,16 +735,16 @@ table {
     opacity: 0;
     transition: .5s ease;
     color: $base-color;
-    
+
     .material-icons-round {
         color: $base-color;
     }
 }
 
 // .media-card:hover .hover-link {
-    // visibility: visible;
-    // background-color: $base-color;
-    // color: $dark-color;
+// visibility: visible;
+// background-color: $base-color;
+// color: $dark-color;
 // }
 
 .cms-footer-container {
@@ -758,13 +758,13 @@ table {
     padding: 1em 0.7em 0 0.7em;
 
     a {
-            color: $base-color;
-            text-decoration: none;
+        color: $base-color;
+        text-decoration: none;
 
-            &:visited {
-                color: $base-color;
-            }
+        &:visited {
+            color: $base-color;
         }
+    }
 
     ul {
         display: flex;
