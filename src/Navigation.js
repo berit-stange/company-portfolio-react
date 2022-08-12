@@ -2,10 +2,21 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './logo.svg';
 
+import { auth } from './firebase';
+
 function Navigation() {
+
+    // Signout function
+    const logout = () => {
+        auth.signOut();
+    }
 
     return (
         <div className="nav-container">
+            <div>
+                <button className="btn-logout" onClick={logout}>Logout</button>
+            </div>
+
             <Link to="/">
                 <img src={logo} className="logo" alt="Logo company xy"></img>
             </Link>
