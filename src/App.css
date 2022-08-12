@@ -41,16 +41,44 @@ body {
   color: #c9634a;
 }
 
-.nav-container {
-  background-color: #fafafa;
+.welcome {
+  color: #c9634a;
+}
+
+.user-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #121420;
+  padding: 0.7em;
+}
+.user-navigation button {
+  background-color: #121420;
+  border: 0;
+  color: #F4F3F1;
+  cursor: pointer;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.1rem;
+}
+
+.page-navigation {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid rgba(13, 16, 39, 0.1725490196);
-  height: 105px;
-  width: 100%;
   padding: 2.5em 2em 2.5em 2em;
+}
+
+.nav-container {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(13, 16, 39, 0.1725490196);
+  height: 155px;
+  width: 100%;
   position: fixed;
   top: 0;
   z-index: 100;
@@ -112,7 +140,7 @@ h3 {
 .main {
   max-width: 1220px;
   margin: 0 auto;
-  margin-top: 155px;
+  margin-top: 255px;
 }
 
 .title-center {
@@ -122,7 +150,7 @@ h3 {
 .image-slider-container {
   background-position: center;
   background-size: cover;
-  margin-top: 105px;
+  margin-top: 205px;
   padding-bottom: 30px;
 }
 .image-slider-container img {
