@@ -12,25 +12,42 @@ import CMSallPagesView from './CMSallPagesView';
 import CMSallProjectsView from './CMSallProjectsView';
 import CMSeditProject from './CMSeditProject';
 
+import { auth } from './firebase';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import GoogleLogin from './GoogleLogin';
+
 function App() {
+
+  // Google Login
+  const [user] = useAuthState(auth);
+
+
   return (
-    <div>
-      <BrowserRouter >
-        {/* <Navigation /> */}
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/projekte" element={<ProjectsOverview />} />
-          <Route exact path="/projekt-details" element={<ProjectDetails />} />
-          <Route exact path="/artikel" element={<ArticlePage />} />
-          <Route exact path="/referenzen" element={<ReferencesClients />} />
-          <Route exact path="/admin" element={<CMSadmin />} />
-          <Route exact path="/admin/projects" element={<CMSallProjectsView />} />
-          <Route exact path="/admin/media" element={<CMSallMediaView />} />
-          <Route exact path="/admin/pages" element={<CMSallPagesView />} />
-          <Route exact path="/admin/edit-project" element={<CMSeditProject />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+
+    user ?
+
+      <div>
+        <BrowserRouter >
+          {/* <Navigation /> */}
+          <div className="welcome">
+            Hallo {auth.currentUser.email}!
+          </div>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/projekte" element={<ProjectsOverview />} />
+            <Route exact path="/projekt-details" element={<ProjectDetails />} />
+            <Route exact path="/artikel" element={<ArticlePage />} />
+            <Route exact path="/referenzen" element={<ReferencesClients />} />
+            <Route exact path="/admin" element={<CMSadmin />} />
+            <Route exact path="/admin/projects" element={<CMSallProjectsView />} />
+            <Route exact path="/admin/media" element={<CMSallMediaView />} />
+            <Route exact path="/admin/pages" element={<CMSallPagesView />} />
+            <Route exact path="/admin/edit-project" element={<CMSeditProject />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+
+      : <GoogleLogin />
   );
 }
 
