@@ -29,9 +29,9 @@ function App() {
       <div>
         <BrowserRouter >
           {/* <Navigation /> */}
-          <div className="welcome">
+          {/* <div className="welcome">
             Hallo {auth.currentUser.email}!
-          </div>
+          </div> */}
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route exact path="/projekte" element={<ProjectsOverview />} />
