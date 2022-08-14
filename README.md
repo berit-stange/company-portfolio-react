@@ -1,5 +1,6 @@
 # COMPANY PORTFOLIO
 This is a content management system built with React
+The user can add content to a website.
 
 ## Getting Started with Create React App
 
