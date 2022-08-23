@@ -4,6 +4,8 @@ It has an admin dashboard with a page for projects and one for pages, and a fron
 
 The user can add content to a website.
 
+It is connected to a firebase database.
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
