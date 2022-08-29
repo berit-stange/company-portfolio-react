@@ -4,7 +4,7 @@ It has an admin dashboard with a page for projects and one for pages, and a fron
 
 The user can add content to a website.
 
-It is connected to a firebase database and uses the firebase commands for CRUD operations..
+It is connected to a firebase database and uses the firebase commands for CRUD operations.
 
 ## Getting Started with Create React App
 
