@@ -40,9 +40,9 @@ function CMSnavbarTop() {
                             <li>Profil</li>
                         </Link>
 
-                        <Link to="#">
+                        {/* <Link to="#">
                             <li>Logout</li>
-                        </Link>
+                        </Link> */}
                     </ul>
                 </nav>
             </div>
