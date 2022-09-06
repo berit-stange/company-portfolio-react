@@ -2,9 +2,10 @@
 This is a content management system built with React. 
 It has an admin dashboard with a page for projects and one for pages, and a frontend for the published website.
 
-The user can add content to a website.
+The user can add content to a website and update it.
 
 It is connected to a firebase database and uses the firebase commands for CRUD operations.
+.
 
 ## Getting Started with Create React App
 
