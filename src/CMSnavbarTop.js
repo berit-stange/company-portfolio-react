@@ -25,7 +25,7 @@ function CMSnavbarTop() {
                 </div>
             </div>
 
-            <div>
+            <div className="admin-header">
                 <Link to="/admin" className="admin-navbar-top-logo">
                     <li>ADMIN PANEL</li>
                 </Link>
