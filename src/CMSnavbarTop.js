@@ -8,6 +8,11 @@ function CMSnavbarTop() {
 
     const [user] = useAuthState(auth);
 
+    // Signout function
+    const logout = () => {
+        auth.signOut();
+    }
+
     return (
 
         <div className="admin-navbar-top">
