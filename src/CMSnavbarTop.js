@@ -6,6 +6,8 @@ import { useAuthState } from 'react-firebase-hooks/auth';
 
 function CMSnavbarTop() {
 
+    const [user] = useAuthState(auth);
+
     return (
 
         <div className="admin-navbar-top">
