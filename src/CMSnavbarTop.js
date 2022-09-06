@@ -17,25 +17,35 @@ function CMSnavbarTop() {
 
         <div className="admin-navbar-top">
 
-            <Link to="/admin" className="admin-navbar-top-logo">
-                <li>ADMIN PANEL</li>
-            </Link>
+            <div className="user-navigation">
+                <button className="btn-logout" onClick={logout}>Logout</button>
 
-            <nav>
-                <ul>
-                    <Link to="/">
-                        <li>Website</li>
-                    </Link>
+                <div className="welcome">
+                    Hallo {auth.currentUser.email}!
+                </div>
+            </div>
 
-                    <Link to="#">
-                        <li>Profil</li>
-                    </Link>
+            <div>
+                <Link to="/admin" className="admin-navbar-top-logo">
+                    <li>ADMIN PANEL</li>
+                </Link>
 
-                    <Link to="#">
-                        <li>Logout</li>
-                    </Link>
-                </ul>
-            </nav>
+                <nav>
+                    <ul>
+                        <Link to="/">
+                            <li>Website</li>
+                        </Link>
+
+                        <Link to="#">
+                            <li>Profil</li>
+                        </Link>
+
+                        <Link to="#">
+                            <li>Logout</li>
+                        </Link>
+                    </ul>
+                </nav>
+            </div>
 
         </div>
 
