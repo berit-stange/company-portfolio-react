@@ -26,10 +26,9 @@ function CMSadmin() {
 
                     <Link to="/admin/projects" className="dashboard-link">Alle Projekte</Link>
 
-                    <Link to="/admin/projects" className="dashboard-link">Alle Seiten</Link>
+                    <Link to="/admin/pages" className="dashboard-link">Alle Seiten</Link>
 
-                    <Link to="/admin/projects" className="dashboard-link">Alle Medien</Link>
-
+                    <Link to="/admin/media" className="dashboard-link">Alle Medien</Link>
 
                     {/* <CMSaddProject /> */}
 

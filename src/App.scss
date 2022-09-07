@@ -72,6 +72,7 @@ body {
     background-color: $accent-color;
     font-size: 1.5em;
     border-radius: 1em;
+    transition: background-color .5s ease-in-out;
 
     &:hover {
         background-color: $dark-color;
@@ -597,16 +598,17 @@ button {
         justify-content: center;
         align-items: center;
         transition: background-color .5s ease-in-out;
+
+        &:hover {
+            background-color: $accent-color;
+            transition: background-color .5s ease-in-out;
+        }
+
+        &:visited {
+            color: $dark-color;
+        }
     }
 
-    .dashboard-link:hover {
-        background-color: $accent-color;
-        transition: background-color .5s ease-in-out;
-    }
-
-    .dashboard-link:visited {
-        color: $dark-color;
-    }
 }
 
 .admin-dashboard-container {
