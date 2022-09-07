@@ -72,6 +72,7 @@ body {
     background-color: $accent-color;
     font-size: 1.5em;
     border-radius: 1em;
+    transition: background-color .5s ease-in-out;
 
     &:hover {
         background-color: $dark-color;
