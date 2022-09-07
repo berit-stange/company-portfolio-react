@@ -1,16 +1,16 @@
 import React from "react";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, /* useEffect, */ useRef } from "react";
 import { auth } from './firebase';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { db } from "./firebase-config";
 import {
     addDoc,
     collection,
-    getDocs,
-    onSnapshot,
-    query,
-    where
+    // getDocs,
+    // onSnapshot,
+    // query,
+    // where
 } from "firebase/firestore";
 
 function CMSaddProject() {
@@ -31,15 +31,15 @@ function CMSaddProject() {
         setElementTitle("");
     };
 
-    useEffect(() => {
-        const q = query(settingsCollectionRef.current, where("uid", "==", user.uid));
-        const handleSnapshot = (snapshot) => {
-            setElements(snapshot.docs.map(doc => ({ ...doc.data(), id: doc.id })));
-        };
-        getDocs(q).then(handleSnapshot);
-        console.log("useEffect ok");
-        return onSnapshot(q, settingsCollectionRef.current, handleSnapshot)
-    }, [user.uid, settingsCollectionRef]);
+    // useEffect(() => {
+    //     const q = query(settingsCollectionRef.current, where("uid", "==", user.uid));
+    //     const handleSnapshot = (snapshot) => {
+    //         setElements(snapshot.docs.map(doc => ({ ...doc.data(), id: doc.id })));
+    //     };
+    //     getDocs(q).then(handleSnapshot);
+    //     console.log("useEffect ok");
+    //     return onSnapshot(q, settingsCollectionRef.current, handleSnapshot)
+    // }, [user.uid, settingsCollectionRef]);
 
 
     return (
