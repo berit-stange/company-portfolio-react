@@ -1,11 +1,48 @@
 import React from "react";
 
-
-// login function!
+import { useState, useEffect, useRef } from "react";
+import { auth } from './firebase';
+import { useAuthState } from 'react-firebase-hooks/auth';
+import { db } from "./firebase-config";
+import {
+    addDoc,
+    collection,
+    getDocs,
+    onSnapshot,
+    query,
+    where
+} from "firebase/firestore";
 
 function CMSaddProject() {
-    return (
 
+    const [user] = useAuthState(auth);
+    const settingsCollectionRef = useRef(collection(db, "projects"));
+    const [title, setElementTitle] = useState("");
+    const [settings, setElements] = useState([]);
+
+    const addElement = async (e) => {
+        e.preventDefault();
+        await addDoc(settingsCollectionRef.current, {
+            // unit: unit,
+            // dose: dose,
+            title: title,
+            uid: user.uid
+        });
+        setElementTitle("");
+    };
+
+    useEffect(() => {
+        const q = query(settingsCollectionRef.current, where("uid", "==", user.uid));
+        const handleSnapshot = (snapshot) => {
+            setElements(snapshot.docs.map(doc => ({ ...doc.data(), id: doc.id })));
+        };
+        getDocs(q).then(handleSnapshot);
+        console.log("useEffect ok");
+        return onSnapshot(q, settingsCollectionRef.current, handleSnapshot)
+    }, [user.uid, settingsCollectionRef]);
+
+
+    return (
 
         <div className="admin-add-project">
 
@@ -14,10 +51,10 @@ function CMSaddProject() {
             <textarea
                 className="admin-content-input"
                 placeholder="Titel"
-            // value={title}
-            // onChange={(event) => {
-            //     setElementTitle(event.target.value);
-            // }}
+                value={title}
+                onChange={(event) => {
+                    setElementTitle(event.target.value);
+                }}
             ></textarea>
 
             <textarea
@@ -37,9 +74,9 @@ function CMSaddProject() {
             <div >
                 <button
                     className="admin-add-btn"
-                // onClick={addElement} 
+                    onClick={addElement}
                 >
-                    <span class="material-icons-round">
+                    <span className="material-icons-round">
                         add_circle
                     </span>
                 </button>
