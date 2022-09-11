@@ -415,10 +415,11 @@ h3 {
     // background-color: $dark-color-op;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-top: 1px solid $dark-color-op;
-    height: 200px;
+    height: 150px;
     width: 100%;
-    // margin: 100px 0 0 0;
+    margin: 100px 0 0 0;
     padding: 1em 0.7em 0 0.7em;
 
     ul {
