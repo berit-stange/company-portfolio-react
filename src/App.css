@@ -311,9 +311,11 @@ h3 {
 .footer-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-top: 1px solid rgba(13, 16, 39, 0.1725490196);
-  height: 200px;
+  height: 150px;
   width: 100%;
+  margin: 100px 0 0 0;
   padding: 1em 0.7em 0 0.7em;
 }
 .footer-container ul {
