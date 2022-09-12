@@ -24,6 +24,8 @@ function Navigation() {
                     Hallo {auth.currentUser.email}!
                 </div>
 
+                <Link to="/admin" className="nav-link">Admin Panel</Link>
+
             </div>
 
             <div className="page-navigation">
