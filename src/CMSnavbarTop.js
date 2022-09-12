@@ -20,9 +20,9 @@ function CMSnavbarTop() {
             <div className="user-navigation">
                 <button className="btn-logout" onClick={logout}>Logout</button>
 
-                <div className="welcome">
+                <Link to="#" className="welcome">
                     Hallo {auth.currentUser.email}!
-                </div>
+                </Link>
 
                 <Link to="/" className="nav-link">Website</Link>
 
@@ -35,13 +35,13 @@ function CMSnavbarTop() {
 
                 <nav>
                     <ul>
-                        <Link to="/">
+                        {/* <Link to="/">
                             <li>Website</li>
-                        </Link>
+                        </Link> */}
 
-                        <Link to="#">
+                        {/* <Link to="#">
                             <li>Profil</li>
-                        </Link>
+                        </Link> */}
 
                         {/* <Link to="#">
                             <li>Logout</li>
