@@ -23,6 +23,9 @@ function CMSnavbarTop() {
                 <div className="welcome">
                     Hallo {auth.currentUser.email}!
                 </div>
+
+                <Link to="/" className="nav-link">Website</Link>
+
             </div>
 
             <div className="admin-header">
