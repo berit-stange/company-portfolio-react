@@ -92,13 +92,15 @@ body {
     background-color: $dark-color;
     padding: .7em;
 
-    button {
+    button,
+    .nav-link {
         background-color: $dark-color;
         border: 0;
         color: $base-color;
         cursor: pointer;
         font-family: "Roboto Slab", serif;
         font-size: $font-small;
+        text-decoration: none;
     }
 }
 
