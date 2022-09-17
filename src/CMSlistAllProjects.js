@@ -8,6 +8,8 @@ import { db } from "./firebase-config";
 import {
     // addDoc,
     collection,
+    deleteDoc,
+    doc,
     getDocs,
     onSnapshot,
     query,
@@ -20,6 +22,11 @@ function CMSlistAllProjects() {
     const settingsCollectionRef = useRef(collection(db, "projects"));
     // const [title, setElementTitle] = useState("");
     const [settings, setElements] = useState([]);
+
+    const deleteProject = async (id) => {
+        const projectDoc = doc(db, "projects", id);
+        await deleteDoc(projectDoc);
+    };
 
     useEffect(() => {
         const q = query(settingsCollectionRef.current, where("uid", "==", user.uid));
@@ -66,8 +73,9 @@ function CMSlistAllProjects() {
                                             <td>{projects.title}</td>
                                             <td>{projects.category}</td>
                                             <td>
-
-                                                <span className="material-icons-round">delete</span>
+                                                <button onClick={() => { deleteProject(projects.id); }}>
+                                                    <span className="material-icons-round">delete</span>
+                                                </button>
                                             </td>
                                         </tr>
                                     );
