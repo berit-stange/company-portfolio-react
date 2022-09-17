@@ -62,9 +62,11 @@ function CMSaddProject() {
             <textarea
                 className="admin-content-input"
                 placeholder="als nächstes: 
-                - Footer Farbe (wie Header?)
-                - vll ein CMS Dashboard als Startseite (> Inhalte? Buttons oder Mini-Vorschau für Komponenten)
-                - media queries"
+                - media queries
+                - Projekte bearbeiten Funktion (open in modal oder eigene Seite)
+                - Projekte auf der Website zeigen 8erst als Liste dann als Detailseite mit eigener url) 
+                - url als inputfeld hinzufügen
+                "
             ></textarea>
 
             <input
