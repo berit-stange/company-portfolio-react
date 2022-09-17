@@ -575,11 +575,13 @@ table {
 #overview-table tr:nth-child(odd) {
   background-color: rgba(13, 16, 39, 0.1725490196);
 }
-#overview-table .material-icons-round {
+
+.material-icons-round {
   color: #121420;
   cursor: pointer;
+  font-size: 2em;
 }
-#overview-table .material-icons-round:hover {
+.material-icons-round:hover {
   color: #ddc852;
 }
 
