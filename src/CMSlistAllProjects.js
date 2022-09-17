@@ -76,6 +76,9 @@ function CMSlistAllProjects() {
                                                 <button onClick={() => { deleteProject(projects.id); }}>
                                                     <span className="material-icons-round">delete</span>
                                                 </button>
+                                                <button>
+                                                    <span className="material-icons-round">update</span>
+                                                </button>
                                             </td>
                                         </tr>
                                     );

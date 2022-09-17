@@ -728,15 +728,16 @@ table {
         background-color: $dark-color-op;
     }
 
-    .material-icons-round {
-        color: $dark-color;
-        cursor: pointer;
+}
 
-        &:hover {
-            color: $accent-color;
-        }
+.material-icons-round {
+    color: $dark-color;
+    cursor: pointer;
+    font-size: 2em;
+
+    &:hover {
+        color: $accent-color;
     }
-
 }
 
 .pages-container {
