@@ -18,7 +18,7 @@ function CMSlistAllProjects() {
 
     const [user] = useAuthState(auth);
     const settingsCollectionRef = useRef(collection(db, "projects"));
-    const [title, setElementTitle] = useState("");
+    // const [title, setElementTitle] = useState("");
     const [settings, setElements] = useState([]);
 
     useEffect(() => {
@@ -64,7 +64,7 @@ function CMSlistAllProjects() {
                                     return (
                                         <tr key={projects.id}>
                                             <td>{projects.title}</td>
-                                            <td>Ausstellung</td>
+                                            <td>{projects.category}</td>
                                             <td>
 
                                                 <span className="material-icons-round">delete</span>
