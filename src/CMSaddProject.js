@@ -19,18 +19,20 @@ function CMSaddProject() {
     const settingsCollectionRef = useRef(collection(db, "projects"));
     const [title, setProjectTitle] = useState("");
     const [category, setProjectCategory] = useState("");
+    const [url, setProjectURL] = useState("");
     // const [settings, setElements] = useState([]);
 
     const addProject = async (e) => {
         e.preventDefault();
         await addDoc(settingsCollectionRef.current, {
-            // unit: unit,
             category: category,
             title: title,
-            uid: user.uid
+            uid: user.uid,
+            url: url
         });
         setProjectTitle("");
         setProjectCategory("");
+        setProjectURL("");
     };
 
     // useEffect(() => {
@@ -75,6 +77,15 @@ function CMSaddProject() {
                 value={category}
                 onChange={(event) => {
                     setProjectCategory(event.target.value);
+                }}
+            ></input>
+
+            <input
+                className="admin-content-input"
+                placeholder="url"
+                value={url}
+                onChange={(event) => {
+                    setProjectURL(event.target.value);
                 }}
             ></input>
 
