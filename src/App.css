@@ -340,7 +340,7 @@ h3 {
 }
 
 button {
-  background-color: #F4F3F1;
+  background-color: transparent;
   border: 0;
   color: #121420;
   cursor: pointer;

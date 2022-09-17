@@ -17,18 +17,20 @@ function CMSaddProject() {
 
     const [user] = useAuthState(auth);
     const settingsCollectionRef = useRef(collection(db, "projects"));
-    const [title, setElementTitle] = useState("");
-    const [settings, setElements] = useState([]);
+    const [title, setProjectTitle] = useState("");
+    const [category, setProjectCategory] = useState("");
+    // const [settings, setElements] = useState([]);
 
-    const addElement = async (e) => {
+    const addProject = async (e) => {
         e.preventDefault();
         await addDoc(settingsCollectionRef.current, {
             // unit: unit,
-            // dose: dose,
+            category: category,
             title: title,
             uid: user.uid
         });
-        setElementTitle("");
+        setProjectTitle("");
+        setProjectCategory("");
     };
 
     // useEffect(() => {
@@ -53,7 +55,7 @@ function CMSaddProject() {
                 placeholder="Titel"
                 value={title}
                 onChange={(event) => {
-                    setElementTitle(event.target.value);
+                    setProjectTitle(event.target.value);
                 }}
             ></textarea>
 
@@ -65,16 +67,20 @@ function CMSaddProject() {
                 - media queries"
             ></textarea>
 
-            <textarea
+            <input
                 className="admin-content-input"
-                placeholder="Text 2"
-            ></textarea>
+                placeholder="Kategorie"
+                value={category}
+                onChange={(event) => {
+                    setProjectCategory(event.target.value);
+                }}
+            ></input>
 
 
             <div >
                 <button
                     className="admin-add-btn"
-                    onClick={addElement}
+                    onClick={addProject}
                 >
                     <span className="material-icons-round">
                         add_circle
