@@ -68,6 +68,7 @@ body {
 .page-navigation {
   display: flex;
   flex-direction: row;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   padding: 2.5em 2em 2.5em 2em;
