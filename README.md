@@ -7,6 +7,9 @@ The user can add content to a website and update it.
 It is connected to a firebase database and uses the firebase commands for CRUD operations.
 
 
+
+
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
