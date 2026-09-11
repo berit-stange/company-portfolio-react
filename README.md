@@ -6,7 +6,7 @@ The user can add content to a website and update it.
 
 It is connected to a firebase database and uses the firebase commands for CRUD operations.
 
-
+![Screenshot der Anwendung](images/add-project-test.jpg)
 
 
 
