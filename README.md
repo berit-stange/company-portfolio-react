@@ -8,7 +8,7 @@ It is connected to a firebase database and uses the firebase commands for CRUD o
 
 ![Screenshot der Anwendung](images/add-project-test.jpg)
 
-
+![company-portfolio-react](images/add-project-test.jpg)
 
 ## Getting Started with Create React App
 
