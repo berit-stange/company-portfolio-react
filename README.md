@@ -6,9 +6,9 @@ The user can add content to a website and update it.
 
 It is connected to a firebase database and uses the firebase commands for CRUD operations.
 
-![Screenshot der Anwendung](images/add-project-test.jpg)
+![Screenshot der Anwendung](img/add-project-test.jpg)
 
-![company-portfolio-react](images/add-project-test.jpg)
+![company-portfolio-react](./img/add-project-test.jpg)
 
 ## Getting Started with Create React App
 
