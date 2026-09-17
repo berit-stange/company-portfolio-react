@@ -9,7 +9,7 @@ body {
   font-size: 1.1rem;
   font-weight: 300;
   background-color: #fafafa;
-  color: #121420;
+  color: #264166;
   line-height: 1.5rem;
   margin: 0 auto;
 }
@@ -38,7 +38,7 @@ body {
   transition: background-color 0.5s ease-in-out;
 }
 .btn-login:hover {
-  background-color: #121420;
+  background-color: #264166;
   color: #ddc852;
 }
 
@@ -51,12 +51,12 @@ body {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  background-color: #121420;
+  background-color: #264166;
   padding: 0.7em;
 }
 .user-navigation button,
 .user-navigation .nav-link {
-  background-color: #121420;
+  background-color: #264166;
   border: 0;
   color: #F4F3F1;
   cursor: pointer;
@@ -92,11 +92,11 @@ body {
   justify-content: space-between;
 }
 .nav-container ul a {
-  color: #121420;
+  color: #264166;
   text-decoration: none;
 }
 .nav-container ul a:visited {
-  color: #121420;
+  color: #264166;
 }
 .nav-container ul li {
   border-radius: 0.5em 0.5em;
@@ -130,7 +130,7 @@ h3 {
 }
 
 .logo {
-  color: #121420;
+  color: #264166;
   width: 200px;
   padding: 0.2em 0 0 0;
 }
@@ -171,8 +171,8 @@ h3 {
 
 .btn-filter {
   background-color: transparent;
-  border: 2px solid #121420;
-  color: #121420;
+  border: 2px solid #264166;
+  color: #264166;
   font-family: "Montserrat", sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
@@ -183,7 +183,7 @@ h3 {
 }
 
 .btn-filter:hover {
-  background-color: #121420;
+  background-color: #264166;
   color: #F4F3F1;
 }
 
@@ -196,7 +196,7 @@ h3 {
   text-decoration: none;
 }
 .breadcrumbs a:visited {
-  color: #121420;
+  color: #264166;
 }
 
 .project-grid-container {
@@ -326,11 +326,11 @@ h3 {
   justify-content: space-between;
 }
 .footer-container ul a {
-  color: #121420;
+  color: #264166;
   text-decoration: none;
 }
 .footer-container ul a:visited {
-  color: #121420;
+  color: #264166;
 }
 .footer-container ul li {
   border-radius: 0.5em 0.5em;
@@ -343,7 +343,7 @@ h3 {
 button {
   background-color: transparent;
   border: 0;
-  color: #121420;
+  color: #264166;
   cursor: pointer;
   font-family: "Roboto Slab", serif;
   font-size: 1.1rem;
@@ -362,7 +362,7 @@ button {
 }
 
 .admin-navbar-top {
-  background-color: #121420;
+  background-color: #264166;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -411,7 +411,7 @@ button {
 }
 
 .admin-nav-sidebar {
-  background-color: #121420;
+  background-color: #264166;
   display: flex;
   flex-direction: column;
   width: 20vw;
@@ -451,7 +451,7 @@ button {
   justify-content: center;
 }
 .admin-content-container .filter-box .filter {
-  background-color: #121420;
+  background-color: #264166;
   color: #F4F3F1;
   margin: 1em;
   padding: 0.5em 1em 0.5em 1em;
@@ -459,13 +459,13 @@ button {
 }
 .admin-content-container .filter-box .filter:hover {
   background-color: #ddc852;
-  color: #121420;
+  color: #264166;
 }
 .admin-content-container .dashboard-link {
   width: 13vw;
   height: 13vw;
   background-color: rgba(221, 200, 82, 0.8078431373);
-  color: #121420;
+  color: #264166;
   text-decoration: none;
   font-weight: 700;
   border-radius: 20%;
@@ -479,7 +479,7 @@ button {
   transition: background-color 0.5s ease-in-out;
 }
 .admin-content-container .dashboard-link:visited {
-  color: #121420;
+  color: #264166;
 }
 
 .admin-dashboard-container {
@@ -504,7 +504,7 @@ button {
   background-color: #fafafa;
   border: 1px solid rgba(13, 16, 39, 0.1725490196);
   border-radius: 0.5em;
-  color: #121420;
+  color: #264166;
   display: flex;
   height: 10vh;
   font-family: "Roboto Slab", serif;
@@ -517,9 +517,9 @@ button {
 }
 
 .overview-row {
-  border: 1px solid #121420;
+  border: 1px solid #264166;
   border-radius: 0.5em;
-  color: #121420;
+  color: #264166;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   margin: 0.5rem;
@@ -539,9 +539,9 @@ table {
 }
 
 #overview-table {
-  border: 1px solid #121420;
+  border: 1px solid #264166;
   border-radius: 0.5em;
-  color: #121420;
+  color: #264166;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   margin: 0.5rem;
@@ -550,7 +550,7 @@ table {
   margin: 0 auto;
 }
 #overview-table th {
-  background-color: #121420;
+  background-color: #264166;
   color: #ddc852;
   padding: 0.4rem 0.4rem 0.4rem 2rem;
 }
@@ -561,7 +561,7 @@ table {
   border-top-right-radius: 0.5em;
 }
 #overview-table tr {
-  border-bottom: 1px solid #121420;
+  border-bottom: 1px solid #264166;
   padding: 0.5;
 }
 #overview-table tr td {
@@ -578,7 +578,7 @@ table {
 }
 
 .material-icons-round {
-  color: #121420;
+  color: #264166;
   cursor: pointer;
   font-size: 2em;
 }
@@ -599,8 +599,8 @@ table {
 .search-box .search-input {
   height: 30px;
   background-color: #fafafa;
-  color: #121420;
-  border: 3px solid #121420;
+  color: #264166;
+  border: 3px solid #264166;
   border-radius: 0.5em;
   padding: 1.5em 1em 1.5em 1em;
 }
@@ -613,7 +613,7 @@ table {
 }
 
 .media-card {
-  background-color: #121420;
+  background-color: #264166;
   height: 10em;
   width: 10em;
   border-radius: 0.5em;
@@ -653,7 +653,7 @@ table {
 }
 
 .cms-footer-container {
-  background-color: #121420;
+  background-color: #264166;
   display: flex;
   justify-content: space-between;
   border-top: 1px solid rgba(13, 16, 39, 0.1725490196);
@@ -863,7 +863,7 @@ table {
 
 .references-a {
   text-decoration: none;
-  color: #121420;
+  color: #264166;
   list-style: none;
   font-size: 2rem;
   line-height: 1.5;
